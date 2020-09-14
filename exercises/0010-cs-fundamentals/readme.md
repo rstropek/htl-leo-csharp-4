@@ -12,6 +12,10 @@ The topics are structured in levels.
 
 **Note**: Don't try to cover every aspect of your topic. If it is too broad for a shot video, pick one or two interesting aspects and focus on that. Demonstrate courage to leave a gap instead of packing too much content into your video.
 
+## Picking a Topic
+
+Put your name right next to the topic you want to cover in your video. You do not know how because you are not familiar with GitHub yet? [Watch a video I created for you describing the process of contributing changes to my GitHub repository](https://youtu.be/mBprBD16P3g).
+
 ## Level 1
 
 | Topic                                                       | Student |
