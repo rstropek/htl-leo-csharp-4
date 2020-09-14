@@ -18,7 +18,7 @@ The topics are structured in levels.
 | ----------------------------------------------------------- | ------- |
 | Tips and tricks for writing the `Main` function             |         |
 | Expression-bodied members                                   |         |
-| Exceptions and exception handling                           |         |
+| Exceptions and exception handling                           | John Doe  |
 | Interfaces                                                  |         |
 | Type casting and type conversion                            |         |
 | Writing to and reading from the console                     |         |
