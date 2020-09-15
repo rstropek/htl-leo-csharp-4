@@ -25,7 +25,7 @@ Dates, Lightning Talks, Exams, Grading, etc.
 
 * We will use [GitHub](https://github.com) a lot
   * [Course Material](https://github.com/rstropek/htl-leo-csharp-4)
-  * Feel free to contribute
+  * Feel free to contribute ([video guide](https://youtu.be/mBprBD16P3g))
 * We will use [Flipgrid](https://flipgrid.com) to collaboratively work on topics based on videos
   * [Join Flipgrid Group](https://flipgrid.com/htlleo4chif2020) (you can join with your *@HTBLALeonding.onmicrosoft.com* school account)
 * Theory lessons will mostly be recorded and put on YouTube
@@ -135,8 +135,8 @@ Komplexität von Algorithmen, Optimierung. Grundzüge der Numerik, Fehleranalyse
 
 * Max. 80 points for exams
   * Max. 20 points per exam
-* Max. 5 points for lightning talk
-* Max. 15 points homeworks
+* Max. 10 points for lightning talk
+* Max. 10 points homeworks
 * Optionally: Max. 20 points for oral exam
 
 ---
