@@ -51,15 +51,15 @@
 | 18.03.2021 | ASP.NET and EF Code Quality                |                        |
 | 25.03.2021 | ASP.NET and OAS/Swagger                    |                        |
 | 01.04.2021 | ASP.NET automated testing                  |                        |
-| 08.04.2021 | Written Exam                               |                        |
+| 08.04.2021 | **Written Exam**                           |                        |
 | 15.04.2021 | WinUI 3 Basics                             |                        |
 | 22.04.2021 | XAML Basics                                |                        |
 | 29.04.2021 | WinUI/XAML Layouts, Data Binding           |                        |
-| 06.05.2021 | Desktop Apps with WinUI/XAML               |                        |
+| 06.05.2021 | Mobile Apps with WinUI/Uno/XAML            |                        |
 | 20.05.2021 | Mobile Apps with WinUI/Uno/XAML            |                        |
 | 27.05.2021 | Mobile Apps with WinUI/Uno/XAML            |                        |
-| 10.06.2021 | Written Exam                               |                        |
-| 17.06.2021 | Exams                                      |                        |
+| 10.06.2021 | **Written Exam**                           |                        |
+| 17.06.2021 | TBD                                        |                        |
 | 24.06.2021 | C# and EF Profiling                        |                        |
 | 01.07.2021 | Roslyn code generation, reflection         |                        |
 | 08.07.2021 | TBD                                        |                        |

@@ -1,0 +1,22 @@
+{
+  "name": "htl-leo-csharp-4",
+  "version": "1.0.0",
+  "description": "Material for C# course (4th grade) at HTL Leonding",
+  "main": "index.js",
+  "scripts": {
+    "start": "reveal server --theme white --width 1920 --height 1080 --markdown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstropek/htl-leo-csharp-4.git"
+  },
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rstropek/htl-leo-csharp-4/issues"
+  },
+  "homepage": "https://github.com/rstropek/htl-leo-csharp-4#readme",
+  "dependencies": {
+    "@vivaxy/reveal": "^2.2.1"
+  }
+}
