@@ -16,7 +16,6 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. Why is [*Dapper*](https://github.com/StackExchange/Dapper) useful when writing simple database applications in C#?
     1. Cool things you can do with [*Tuples*](https://docs.microsoft.com/en-us/dotnet/csharp/tuples)
     1. What are [*records* in C#](https://devblogs.microsoft.com/dotnet/welcome-to-c-9-0/#records) and why are they useful?
-    2. How to use [*GitHub Actions*](https://github.com/features/actions) to automate building, testing, and deploying C# apps (aka *CI/CD*)?
     3. What is [*WinUI*](https://microsoft.github.io/microsoft-ui-xaml/) and why is it useful for C# developers?
 2. Mobile Development
     1. What is [*Material Design for Android*](https://developer.android.com/design/material/index.html)?
