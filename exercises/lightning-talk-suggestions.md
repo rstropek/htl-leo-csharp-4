@@ -1,4 +1,4 @@
-# Lightning Talks
+# Lightning Talk Suggestions
 
 Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk) topics:
 
@@ -17,6 +17,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     1. Cool things you can do with [*Tuples*](https://docs.microsoft.com/en-us/dotnet/csharp/tuples)
     1. What are [*records* in C#](https://devblogs.microsoft.com/dotnet/welcome-to-c-9-0/#records) and why are they useful?
     3. What is [*WinUI*](https://microsoft.github.io/microsoft-ui-xaml/) and why is it useful for C# developers?
+    4. Tips and tricks for [*dnSpy*](https://github.com/0xd4d/dnSpy/releases)
 2. Mobile Development
     1. What is [*Material Design for Android*](https://developer.android.com/design/material/index.html)?
     2. What is [*test automation*](https://en.wikipedia.org/wiki/Test_automation) and how can it be done for many different mobile platforms and devices (e.g. [*Sauce Labs*](https://saucelabs.com/))?
@@ -47,10 +48,10 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     6. Where can [*AutoMapper*](http://automapper.org/) help when building layered applications?
     7. What does *asynchronous programming with observable streams* mean and how can [*ReactiveX*](http://reactivex.io/) help to implement it?
     8. What is [*Quartz.NET*](https://www.quartz-scheduler.net/) and how can it help to build more elaborate .NET applications?
-    1. What features can you add with [*Lucene.Net*](http://lucenenet.apache.org/index.html) to your .NET application?
-    1. What are the [*Microsoft REST API Design Guidelines*](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) and what can we learn from it?
-    2. What is [*GraphQL*](https://graphql.org/) and why is it important for developing distributed applications?
-    3. What is [*OData*](https://www.odata.org/) and why is it important for developing distributed applications?
+    9. What features can you add with [*Lucene.Net*](http://lucenenet.apache.org/index.html) to your .NET application?
+    10. What are the [*Microsoft REST API Design Guidelines*](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) and what can we learn from it?
+    11. What is [*GraphQL*](https://graphql.org/) and why is it important for developing distributed applications?
+    12. What is [*OData*](https://www.odata.org/) and why is it important for developing distributed applications?
 6. Openness
     1. Free development tools every .NET developer should know about
     2. Free web services every .NET developer should know about
@@ -62,6 +63,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     3. Cool things you can do with [*Fiddler*](http://www.telerik.com/fiddler)
     4. Cool things you can do with [*Postman*](https://www.getpostman.com/)
     5. Cool things you can do with [*Insomnia*](https://insomnia.rest/)
+    5. Cool things you can do with the [VSCode *REST Client*](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
     6. What can we learn from the *NIST* document [*Digital Identity Guidelines*](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf) in terms of security?
     7. What can we learn from stackoverflow's [*IT-Recruiter Report*](https://www.stackoverflowbusiness.com/de/talent/ressourcen/der-stack-overflow-it-recruiter-report-2017) for searching our first jobs in IT?
     8. What is the [*StackOverflow Survey*](https://insights.stackoverflow.com/survey/2019) and what can you learn from it?
@@ -72,7 +74,7 @@ Here are suggestions for [lightning talk](https://en.wikipedia.org/wiki/Lightnin
     13. What is [*CEFSharp*](http://cefsharp.github.io/) and what scenarios does it enable for .NET applications?
     14. What is [*winget*](https://docs.microsoft.com/en-us/windows/package-manager/winget/) and how can developers make good use of it?
 8. Why should I read... (**no spoilers!**)
-    1. [*Daemon* triology by Daniel Suarez](https://www.amazon.de/Daemon-Daniel-Suarez/dp/0451228731/ref=sr_1_2?ie=UTF8&qid=1500878463&sr=8-2&keywords=daniel+suarez+daemon)
+    1. [*Daemon* trilogy by Daniel Suarez](https://www.amazon.de/Daemon-Daniel-Suarez/dp/0451228731/ref=sr_1_2?ie=UTF8&qid=1500878463&sr=8-2&keywords=daniel+suarez+daemon)
     2. [*Armada* by Ernest Cline](https://www.amazon.de/Armada-Ernest-Cline/dp/0099586746/ref=sr_1_2?ie=UTF8&qid=1500878895&sr=8-2&keywords=armada+ernest+cline)
     3. [*Off to be the Wizard* by Scott Meyer](https://www.amazon.de/Off-Wizard-Magic-2-0-Band/dp/1612184715/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1500879290&sr=1-1&keywords=off+to+be+the+wizard)
     4. [*TED Talks* by Chris Anderson](https://www.amazon.de/TED-Talks-official-public-speaking/dp/1472244443/ref=sr_1_2?ie=UTF8&qid=1500879361&sr=8-2&keywords=ted+talks)

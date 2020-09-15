@@ -36,9 +36,10 @@ Use Windows, Linux, or Mac. Windows is the most convenient option.
 
 **Note** that the following SDKs are automatically installed if you install *Visual Studio 2019 Preview* (see above). You only need to install the SDKs manually if you do not want to use Visual Studio.
 
-* [Install *.NET*](https://dotnet.microsoft.com/download/dotnet-core)
+* Install [*.NET*](https://dotnet.microsoft.com/download/dotnet-core)
   * *.NET Core 3.1 SDK* (LTS)
   * *.NET 5.0* (Preview)
+* Install [*dnSpy*](https://github.com/0xd4d/dnSpy/releases)
 
 ### Visual Studio Code
 

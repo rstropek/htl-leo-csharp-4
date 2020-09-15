@@ -48,6 +48,7 @@ Put your name right next to the topic you want to cover in your video. You do no
 | Locking                                                |         |
 | Function parameter modifiers (`in`, `ref`, `out`)      |         |
 | Generics                                               |         |
+| Custom exception classes                               |         |
 
 ## Level 3
 
