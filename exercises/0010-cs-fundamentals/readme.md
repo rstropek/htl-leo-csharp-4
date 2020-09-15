@@ -42,7 +42,6 @@ Put your name right next to the topic you want to cover in your video. You do no
 | Tuples                                                 |         |
 | The type `dynamic`                                     |         |
 | Single- and multi-dimensional arrays                   |         |
-| Events                                                 |         |
 | `?.`, `??`, and `??=`                                  |         |
 | `string` vs. `StringBuilder`                           |         |
 | `const` and `readonly`                                 |         |
@@ -57,6 +56,7 @@ Put your name right next to the topic you want to cover in your video. You do no
 | Records                       |         |
 | Reflection                    |         |
 | Delegates                     |         |
+| Events                        |         |
 | Enumerators and `yield`       |         |
 | Attributes                    |         |
 | Covariance and Contravariance |         |
