@@ -16,24 +16,23 @@ Dates, Lightning Talks, Exams, Grading, etc.
   * Does your exam answers have to be in English? **No. English and German are accepted.**
   * Will oral exams be in English? **You can choose**
   * Will CLIL be noted in your course certificate? **No**
-  * Can we stop CLIL if it doesn't work? **Yes, but please give it a try**   
+  * Can we stop CLIL if it doesn't work? **Yes, but please give it a try**
 
 ---
 
-<!-- .slide: class="left" -->
 ## Course Material
 
 * We will use [GitHub](https://github.com) a lot
   * [Course Material](https://github.com/rstropek/htl-leo-csharp-4)
   * Feel free to contribute ([video guide](https://youtu.be/mBprBD16P3g))
 * We will use [Flipgrid](https://flipgrid.com) to collaboratively work on topics based on videos
-  * [Join Flipgrid Group](https://flipgrid.com/htlleo4chif2020) (you can join with your *@HTBLALeonding.onmicrosoft.com* school account)
+  * [Join Flipgrid Group](https://flipgrid.com/htlleo4chif2020)
+  * You can join with your *@HTBLALeonding.onmicrosoft.com* school account
 * Theory lessons will mostly be recorded and put on YouTube
   * Link TBA
 
 ---
 
-<!-- .slide: class="left" -->
 ## Curriculum 7. Semester
 
 * [Quelle](https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40217045/NOR40217045.pdf)
@@ -44,7 +43,6 @@ Einteilung und Eigenschaften von Programmiersprachen, Typsysteme, Programmierpar
 
 ---
 
-<!-- .slide: class="left" -->
 ## Curriculum 8. Semester
 
 * [Quelle](https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40217045/NOR40217045.pdf)
@@ -55,23 +53,20 @@ Komplexität von Algorithmen, Optimierung. Grundzüge der Numerik, Fehleranalyse
 
 ---
 
-<!-- .slide: class="left" -->
 ## Curriculum For This Course
 
 > [Available on GitHub](https://github.com/rstropek/htl-leo-csharp-4/blob/master/course-calendar.md)
 
 ---
 
-<!-- .slide: class="left" -->
 ## Necessary Software
 
 * We focus on open-source, platform-independent development
 * We will use *Visual Studio* and *Visual Studio Code*
-* **Exercise**: [Prepare your development environment](https://github.com/rstropek/htl-leo-csharp-4/blob/master/exercises/0000-prerequisites/readme.md)
+* **Homework**: [Prepare your development environment](https://github.com/rstropek/htl-leo-csharp-4/blob/master/exercises/0000-prerequisites/readme.md)
 
 ---
 
-<!-- .slide: class="left" -->
 ## Lessons
 
 * 10 minutes for [lightning talk](https://en.wikipedia.org/wiki/Lightning_talk)
@@ -81,20 +76,19 @@ Komplexität von Algorithmen, Optimierung. Grundzüge der Numerik, Fehleranalyse
 
 ---
 
-<!-- .slide: class="left" -->
 ## Lightning Talks
 
 * What is a *Lightning Talk*?
   * Max. 7 minutes for presentation, rest for questions
   * Consider [PechaKucha](https://en.wikipedia.org/wiki/PechaKucha)-style
   * Examples: [PechaKucha](https://youtu.be/XBhTaL7RpA8), ["Nerdy" one with demo](https://www.destroyallsoftware.com/talks/wat)
-* Any interesting technology topic (preferably mobile computing-related)
+* Any interesting technology topic (preferably C#/.NET related)
   * [Suggestions](https://github.com/rstropek/htl-leo-csharp-4/blob/master/exercises/lightning-talk-suggestions.md)
-  * Submit topics using a [pull request](https://help.github.com/articles/about-pull-requests/) for [Online Course Calendar](https://github.com/rstropek/htl-leo-csharp-4/blob/master/course-calendar.md)
+  * Submit topics using a [pull request](https://help.github.com/articles/about-pull-requests/) for [Lightning Talk calendar](https://github.com/rstropek/htl-leo-csharp-4/blob/master/exercises/lightning-talks.md)
+  * [Video about contributing to GitHub](https://youtu.be/mBprBD16P3g)
 
 ---
 
-<!-- .slide: class="left" -->
 ## Lightning Talks Grading Criteria
 
 * Prepared for the presentation (e.g. handout, PPT, demo)
@@ -106,7 +100,6 @@ Komplexität von Algorithmen, Optimierung. Grundzüge der Numerik, Fehleranalyse
 
 ---
 
-<!-- .slide: class="left" -->
 ## Exams
 
 * *Four* written exams
@@ -119,7 +112,6 @@ Komplexität von Algorithmen, Optimierung. Grundzüge der Numerik, Fehleranalyse
 
 ---
 
-<!-- .slide: class="left" -->
 ## Homeworks
 
 * Everybody *must* do every homework
@@ -130,7 +122,6 @@ Komplexität von Algorithmen, Optimierung. Grundzüge der Numerik, Fehleranalyse
 
 ---
 
-<!-- .slide: class="left" -->
 ## Grading
 
 * Max. 80 points for exams

@@ -4,7 +4,8 @@
   "description": "Material for C# course (4th grade) at HTL Leonding",
   "main": "index.js",
   "scripts": {
-    "start": "reveal server --theme white --width 1920 --height 1080 --markdown"
+    "start": "reveal server --theme white --width 1920 --height 1080 --markdown",
+    "build": "node ./build/combine.js"
   },
   "repository": {
     "type": "git",

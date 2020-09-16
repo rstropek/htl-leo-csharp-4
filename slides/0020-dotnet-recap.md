@@ -4,25 +4,23 @@ Let's remember .NET fundamentals
 
 ---
 
-<!-- .slide: class="left" -->
 ## .NET Framework
 
-* Development platform for building apps for web, Windows, Windows Server, and Microsoft Azure
+* Development platform for building apps for web, Windows, Windows Server, and Azure
 * Components
   * Common language runtime (CLR)
-  * .NET Framework class library
-* .NET Framework services include:
+  * .NET BCL (Base Class Library)
+* .NET services include:
   * Memory management
   * Type and memory safety
   * Security
   * Networking
   * Application deployment
-* Data structures and APIs that abstract the lower-level Windows operating system
+* Data structures and APIs that abstract the lower-level operating system
 * Supports many programming languages including C#, F#, and Visual Basic
 
 ---
 
-<!-- .slide: class="left" -->
 ## [.NET Core](https://www.microsoft.com/net/core#windowscmd)
 
 * Cross-platform and open source implementation of .NET
@@ -38,7 +36,6 @@ Let's remember .NET fundamentals
 
 ---
 
-<!-- .slide: class="left" -->
 ## [.NET 5](https://www.microsoft.com/net/core#windowscmd)
 
 * Future of .NET
@@ -52,9 +49,18 @@ Let's remember .NET fundamentals
 
 ---
 
+## Which .NET?
+
+* New apps and libs 👉 .NET 5
+* Libraries that need backward compatibility
+  * Used with .NET Core 👉 .NET Standard 2.1
+  * Used with .NET Framework 👉 .NET Standard 2.0
+
+---
+
 ## [.NET 5](https://www.microsoft.com/net/core#windowscmd)
 
-![Roadmap](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2019/05/dotnet_schedule.png)
+![Roadmap](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2019/05/dotnet_schedule.png)<!-- .element width="70%" -->
 
 ---
 
@@ -73,7 +79,18 @@ Let's remember .NET fundamentals
 
 ---
 
-<!-- .slide: class="left" -->
+## .NET *Managed Code*
+
+* What do you know about MSIL?
+  * [Managed Execution Process](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process)
+  * [Ilasm](https://docs.microsoft.com/en-us/dotnet/framework/tools/ilasm-exe-il-assembler)/[Ildasm](https://docs.microsoft.com/en-us/dotnet/framework/tools/ildasm-exe-il-disassembler)
+  * [*dnSpy*](https://github.com/0xd4d/dnSpy/releases)
+* What do you know about .NET's [garbage collector](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management)?
+  * How does it compare to other programming languages you know
+    * E.g. C++, Java, JavaScript, Python
+
+---
+
 ## Further Readings and Exercises
 
 * Want to know more? Read/watch...

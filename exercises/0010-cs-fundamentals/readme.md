@@ -16,6 +16,13 @@ The topics are structured in levels.
 
 Put your name right next to the topic you want to cover in your video. You do not know how because you are not familiar with GitHub yet? [Watch a video I created for you describing the process of contributing changes to my GitHub repository](https://youtu.be/mBprBD16P3g).
 
+## Development Environment
+
+You can choose in which environment you would like to do your demo. *Visual Studio 2019* is recommended, *Visual Studio Code* is also fine. However, you can also consider online tools like:
+
+* [repl.it](https://repl.it/)
+* [sharplab.io](https://sharplab.io/)
+
 ## Level 1
 
 | Topic                                                       | Student |
