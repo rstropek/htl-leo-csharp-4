@@ -22,7 +22,7 @@ Dates, Lightning Talks, Exams, Grading, etc.
 
 ## Course Material
 
-* [View slides online](https://htl-leo-csharp-4-slides.azurewebsites.net/#/1/2)
+* [View slides online](https://htl-leo-csharp-4-slides.azurewebsites.net/) at https://htl-leo-csharp-4-slides.azurewebsites.net/
 * We will use [GitHub](https://github.com) a lot
   * [Course Material](https://github.com/rstropek/htl-leo-csharp-4)
   * Feel free to contribute ([video guide](https://youtu.be/mBprBD16P3g))
