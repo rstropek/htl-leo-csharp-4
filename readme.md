@@ -6,6 +6,10 @@ This repository contains the material that I use during my C# course at [HTL Leo
 
 ## View Slides
 
+### Online
+
+[https://htl-leo-csharp-4-slides.azurewebsites.net/](https://htl-leo-csharp-4-slides.azurewebsites.net/)
+
 ### Locally
 
 You need to have Node.js installed in order to view slides locally. Run `npm install` to install necessary packages.
