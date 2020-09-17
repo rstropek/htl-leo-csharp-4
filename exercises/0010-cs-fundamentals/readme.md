@@ -62,9 +62,9 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Topic                         | Student |
 | ----------------------------- | ------- |
 | Records                       |         |
-| Reflection                    |Khnifes Kyrillus|
+| Reflection                    | Khnifes Kyrillus|
 | Delegates                     |         |
 | Events                        |         |
-| Enumerators and `yield`       |         |
+| Enumerators and `yield`       | Kastenhofer Daniel        |
 | Attributes                    |         |
 | Covariance and Contravariance |         |
