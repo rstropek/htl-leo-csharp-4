@@ -55,7 +55,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Locking                                                |         |
 | Function parameter modifiers (`in`, `ref`, `out`)      |Raci Dionis|
 | Generics                                               | Manuel Rausch-Schott         |
-| Custom exception classes                               |         |
+| Custom exception classes                               | Maureder Christoph        |
 
 ## Level 3
 
