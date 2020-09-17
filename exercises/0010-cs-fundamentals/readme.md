@@ -44,11 +44,11 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 
 | Topic                                                  | Student |
 | ------------------------------------------------------ | ------- |
-| `struct` vs. `class` (value types vs. reference types) | Kowatschek Samuel        |
+| `struct` vs. `class` (value types vs. reference types) |         |
 | Constructors and finalizers                            |         |
 | Tuples                                                 |         |
 | The type `dynamic`                                     |         |
-| Single- and multi-dimensional arrays                   |         |
+| Single- and multi-dimensional arrays                   |Bastian Haider|
 | `?.`, `??`, and `??=`                                  |         |
 | `string` vs. `StringBuilder`                           |         |
 | `const` and `readonly`                                 |         |
