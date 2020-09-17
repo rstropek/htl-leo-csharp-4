@@ -63,7 +63,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | ----------------------------- | ------- |
 | Records                       |         |
 | Reflection                    |Khnifes Kyrillus|
-| Delegates                     |         |
+| Delegates                     |Steininger Markus|
 | Events                        |         |
 | Enumerators and `yield`       |         |
 | Attributes                    |         |
