@@ -54,7 +54,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | `const` and `readonly`                                 |         |
 | Locking                                                |         |
 | Function parameter modifiers (`in`, `ref`, `out`)      |Raci Dionis|
-| Generics                                               |         |
+| Generics                                               |Florian Veith|
 | Custom exception classes                               |         |
 
 ## Level 3
