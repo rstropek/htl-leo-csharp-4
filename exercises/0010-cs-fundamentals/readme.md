@@ -36,7 +36,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Type testing (`is` and `as`)                                | Maximilian Pineker   |
 | Access modifiers (e.g. `private`, `public`, etc.)           | Enkner Michael        |
 | Namespaces                                                  |         |
-| Functions (incl. `static` and local functions)              | Bastian Haider        |
+| Functions (incl. `static` and local functions)              |         |
 | String constants (incl. interpolation and verbatim strings) |         |
 | Preprocessor directives                                     |         |
 
@@ -45,7 +45,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Topic                                                  | Student |
 | ------------------------------------------------------ | ------- |
 | `struct` vs. `class` (value types vs. reference types) | Kowatschek Samuel        |
-| Constructors and finalizers                            |         |
+| Constructors and finalizers                            | Resch Oliver|
 | Tuples                                                 |         |
 | The type `dynamic`                                     |         |
 | Single- and multi-dimensional arrays                   | Jan Fischlmayr        |
@@ -54,7 +54,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | `const` and `readonly`                                 | Thomas Baminger        |
 | Locking                                                |         |
 | Function parameter modifiers (`in`, `ref`, `out`)      |Raci Dionis|
-| Generics                                               | Manuel Rausch-Schott         |
+| Generics                                               |         |
 | Custom exception classes                               |         |
 
 ## Level 3
