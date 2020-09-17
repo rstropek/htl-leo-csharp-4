@@ -50,7 +50,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | The type `dynamic`                                     |         |
 | Single- and multi-dimensional arrays                   | Jan Fischlmayr        |
 | `?.`, `??`, and `??=`                                  | Hofmann Daniel        |
-| `string` vs. `StringBuilder`                           |         |
+| `string` vs. `StringBuilder`                           | Semaschko Stanislav        |
 | `const` and `readonly`                                 | Thomas Baminger        |
 | Locking                                                |         |
 | Function parameter modifiers (`in`, `ref`, `out`)      |Raci Dionis|
