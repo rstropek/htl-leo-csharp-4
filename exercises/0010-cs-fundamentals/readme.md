@@ -49,7 +49,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Tuples                                                 |         |
 | The type `dynamic`                                     |         |
 | Single- and multi-dimensional arrays                   | Jan Fischlmayr        |
-| `?.`, `??`, and `??=`                                  |         |
+| `?.`, `??`, and `??=`                                  | Hofmann Daniel        |
 | `string` vs. `StringBuilder`                           |         |
 | `const` and `readonly`                                 | Thomas Baminger        |
 | Locking                                                |         |
