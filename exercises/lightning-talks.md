@@ -14,7 +14,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 24.09.2020 |                  |       |
 | 28.09.2020 |                  |       |
 | 08.10.2020 |                  |       |
-| 15.10.2020 |                  |       |
+| 15.10.2020 |Khnifes Kyrillus|SonarQube/SonarLint|
 | 22.10.2020 |                  |       |
 | 05.11.2020 | **Written Exam** | ---   |
 | 12.11.2020 |                  |       |
