@@ -37,7 +37,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Access modifiers (e.g. `private`, `public`, etc.)           |         |
 | Namespaces                                                  |         |
 | Functions (incl. `static` and local functions)              |         |
-| String constants (incl. interpolation and verbatim strings) |         |
+| String constants (incl. interpolation and verbatim strings) |Bastian Haider|
 | Preprocessor directives                                     |         |
 
 ## Level 2
@@ -62,9 +62,9 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Topic                         | Student |
 | ----------------------------- | ------- |
 | Records                       |         |
-| Reflection                    | Khnifes Kyrillus|
+| Reflection                    |Khnifes Kyrillus|
 | Delegates                     |         |
 | Events                        |         |
-| Enumerators and `yield`       | Kastenhofer Daniel        |
+| Enumerators and `yield`       |         |
 | Attributes                    |         |
 | Covariance and Contravariance |         |
