@@ -44,7 +44,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 
 | Topic                                                  | Student |
 | ------------------------------------------------------ | ------- |
-| `struct` vs. `class` (value types vs. reference types) |         |
+| `struct` vs. `class` (value types vs. reference types) | Kowatschek Samuel        |
 | Constructors and finalizers                            |         |
 | Tuples                                                 |         |
 | The type `dynamic`                                     |         |
