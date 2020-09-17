@@ -30,7 +30,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Tips and tricks for writing the `Main` function             |  Fabio Lehner   |
 | Expression-bodied members                                   |         |
 | Exceptions and exception handling                           |         |
-| Interfaces                                                  |         |
+| Interfaces                                                  |Stefan Anzinger|
 | Type casting and type conversion                            |         |
 | Writing to and reading from the console                     |         |
 | Type testing (`is` and `as`)                                | Maximilian Pineker   |
