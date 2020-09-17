@@ -67,4 +67,4 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Events                        | Tobias Kern        |
 | Enumerators and `yield`       | Kastenhofer Daniel        |
 | Attributes                    |         |
-| Covariance and Contravariance |         |
+| Covariance and Contravariance | Kraus David |
