@@ -46,7 +46,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | ------------------------------------------------------ | ------- |
 | `struct` vs. `class` (value types vs. reference types) | Kowatschek Samuel        |
 | Constructors and finalizers                            | Handstanger Alexander        |
-| Tuples                                                 |         |
+| Tuples                                                 | Florian Veith        |
 | The type `dynamic`                                     |         |
 | Single- and multi-dimensional arrays                   | Jan Fischlmayr        |
 | `?.`, `??`, and `??=`                                  | Hofmann Daniel        |
