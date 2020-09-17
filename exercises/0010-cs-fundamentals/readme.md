@@ -53,7 +53,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | `string` vs. `StringBuilder`                           |         |
 | `const` and `readonly`                                 |         |
 | Locking                                                |         |
-| Function parameter modifiers (`in`, `ref`, `out`)      |         |
+| Function parameter modifiers (`in`, `ref`, `out`)      |Raci Dionis|
 | Generics                                               |         |
 | Custom exception classes                               |         |
 
