@@ -36,7 +36,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Type testing (`is` and `as`)                                | Maximilian Pineker   |
 | Access modifiers (e.g. `private`, `public`, etc.)           | Enkner Michael        |
 | Namespaces                                                  |         |
-| Functions (incl. `static` and local functions)              |         |
+| Functions (incl. `static` and local functions)              | Bastian Haider        |
 | String constants (incl. interpolation and verbatim strings) |         |
 | Preprocessor directives                                     |         |
 
