@@ -48,7 +48,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Constructors and finalizers                            |         |
 | Tuples                                                 |         |
 | The type `dynamic`                                     |         |
-| Single- and multi-dimensional arrays                   |         |
+| Single- and multi-dimensional arrays                   | Jan Fischlmayr        |
 | `?.`, `??`, and `??=`                                  |         |
 | `string` vs. `StringBuilder`                           |         |
 | `const` and `readonly`                                 |         |
