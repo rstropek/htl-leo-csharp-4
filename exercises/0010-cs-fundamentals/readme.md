@@ -51,7 +51,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Single- and multi-dimensional arrays                   | Jan Fischlmayr        |
 | `?.`, `??`, and `??=`                                  |         |
 | `string` vs. `StringBuilder`                           |         |
-| `const` and `readonly`                                 |         |
+| `const` and `readonly`                                 | Thomas Baminger        |
 | Locking                                                |         |
 | Function parameter modifiers (`in`, `ref`, `out`)      |Raci Dionis|
 | Generics                                               |         |
