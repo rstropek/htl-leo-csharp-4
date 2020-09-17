@@ -32,7 +32,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Exceptions and exception handling                           |         |
 | Interfaces                                                  |         |
 | Type casting and type conversion                            |         |
-| Writing to and reading from the console                     |         |
+| Writing to and reading from the console                     |Pirngruber Christian|
 | Type testing (`is` and `as`)                                | Maximilian Pineker   |
 | Access modifiers (e.g. `private`, `public`, etc.)           |         |
 | Namespaces                                                  |         |
@@ -62,9 +62,9 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Topic                         | Student |
 | ----------------------------- | ------- |
 | Records                       |         |
-| Reflection                    | Khnifes Kyrillus|
+| Reflection                    |Khnifes Kyrillus|
 | Delegates                     |         |
 | Events                        |         |
-| Enumerators and `yield`       | Kastenhofer Daniel        |
+| Enumerators and `yield`       |         |
 | Attributes                    |         |
 | Covariance and Contravariance |         |
