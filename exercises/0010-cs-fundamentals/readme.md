@@ -64,7 +64,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Records                       |         |
 | Reflection                    |Khnifes Kyrillus|
 | Delegates                     |         |
-| Events                        |         |
+| Events                        |Tobias Kern|
 | Enumerators and `yield`       |         |
 | Attributes                    |         |
 | Covariance and Contravariance |         |
