@@ -30,7 +30,7 @@ Dates, Lightning Talks, Exams, Grading, etc.
   * [Join Flipgrid Group](https://flipgrid.com/htlleo4chif2020)
   * You can join with your *@HTBLALeonding.onmicrosoft.com* school account
 * Theory lessons will mostly be recorded and put on YouTube
-  * Link TBA
+  * [YouTube Playlist](https://www.youtube.com/playlist?list=PLhGL9p3BWHwtHPWX8g7yJFQvICdNhFQV7)
 
 ---
 
