@@ -17,7 +17,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 15.10.2020 |Khnifes Kyrillus|SonarQube/SonarLint|
 | 22.10.2020 |                  |       |
 | 05.11.2020 | **Written Exam** | ---   |
-| 12.11.2020 |                  |       |
+| 12.11.2020 |Jan Fischlmayr|Serverless Computing|
 | 19.11.2020 |                  |       |
 | 23.11.2020 |                  |       |
 | 03.12.2020 |                  |       |
