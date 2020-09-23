@@ -52,7 +52,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | `?.`, `??`, and `??=`                                  | Hofmann Daniel        |
 | `string` vs. `StringBuilder`                           | Semaschko Stanislav        |
 | `const` and `readonly`                                 | Thomas Baminger        |
-| Locking                                                |         |
+| Locking                                                | Fuchshofer Robin        |
 | Function parameter modifiers (`in`, `ref`, `out`)      |Raci Dionis|
 | Generics                                               | Manuel Rausch-Schott         |
 | Custom exception classes                               | Maureder Christoph        |
