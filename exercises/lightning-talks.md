@@ -14,12 +14,12 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 24.09.2020 |                  |       |
 | 28.09.2020 |                  |       |
 | 08.10.2020 |                  |       |
-| 15.10.2020 |Khnifes Kyrillus|SonarQube/SonarLint|
+| 15.10.2020 |                  |       |
 | 22.10.2020 |                  |       |
 | 05.11.2020 | **Written Exam** | ---   |
 | 12.11.2020 |Jan Fischlmayr|Serverless Computing|
 | 19.11.2020 | Kraus David | Reverse Engineering and Memory Exploitation |
-| 26.11.2020 |                  |       |
+| 26.11.2020 |Khnifes Kyrillus|SonarQube/SonarLint|
 | 03.12.2020 |                  |       |
 | 10.12.2020 |                  |       |
 | 17.12.2020 |                  |       |
