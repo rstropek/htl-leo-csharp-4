@@ -14,13 +14,13 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 24.09.2020 |                  |       |
 | 28.09.2020 |                  |       |
 | 08.10.2020 |                  |       |
-| 15.10.2020 |Khnifes Kyrillus|SonarQube/SonarLint|
+| 15.10.2020 |                  |       |
 | 22.10.2020 |                  |       |
 | 05.11.2020 | **Written Exam** | ---   |
 | 12.11.2020 |Jan Fischlmayr|Serverless Computing|
 | 19.11.2020 | Kraus David | Reverse Engineering and Memory Exploitation |
-| 26.11.2020 |                  |       |
-| 03.12.2020 |                  |       |
+| 26.11.2020 |Khnifes Kyrillus|SonarQube/SonarLint|
+| 03.12.2020 | Kowatschek Samuel | What is Markdown, why is it useful, and what cool things can you do with it?|
 | 10.12.2020 |                  |       |
 | 17.12.2020 |                  |       |
 | 07.01.2021 |                  |       |
