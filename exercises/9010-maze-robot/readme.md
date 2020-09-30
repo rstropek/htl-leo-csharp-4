@@ -6,9 +6,15 @@ In this quiz, you have to write an algorithm that directs a fictitious robot out
 
 To solve the quiz, implement the method `MoveRobotToExit` in [RobotController.cs](Maze.Robot/RobotController.cs). You can check if your code is correct by running the unit tests in [Maze.Tests](Maze.Tests).
 
-1. Everybody has to do his/her best to come up with a solution.
+1. Everybody has to do his/her best to come up with a solution. **You must check in your code in GitHub**.
 
-1. Earn one extra point for your grade by delivering a solution that passes all unit tests. If you think you deserve the extra point, check in your working code and send me a message via GitHub issue.
+1. Earn one extra point for your grade by delivering a solution that passes all unit tests. 
+
+1. Too easy for you? I have an **extra challenge**: Earn an additional extra point for your grade if you build at least one *meaningful* (not trivial!) unit test to the [*Maze.Tests*](Maze.Tests) project. We have not covered writing unit tests in class but I am pretty sure you will figure out how they work by examining the existing tests and doing some online research.
+
+If you think you deserve one or two extra points, send me a message via a GitHub issue in your homework's repository.
+
+![Create GitHub Issue](images/github-issue.png)
 
 ## Hints
 
