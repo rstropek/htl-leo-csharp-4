@@ -7,8 +7,8 @@
 | 17.09.2020 | Introduction, .NET Recap (Basics)          |
 | 24.09.2020 | C# Recap (Delegates, Lambdas)              |
 | 28.09.2020 | C# type system                             |
-| 08.10.2020 | C# pattern matching                        |
-| 15.10.2020 | C# Async Programming                       |
+| 08.10.2020 | C# Async Programming                       |
+| 15.10.2020 | Linq                                       |
 | 22.10.2020 | Recap, C# Code Quality (incl. nullability) |
 | 05.11.2020 | **Written Exam**                           |
 | 12.11.2020 | Linq                                       |
