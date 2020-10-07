@@ -44,7 +44,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 15.04.2021 |                  |       |
 | 22.04.2021 |                  |       |
 | 29.04.2021 |                  |       |
-| 06.05.2021 |                  |       |
+| 06.05.2021 | Leon Nepelius    | What is WinUI and why is it useful for C# developers?|
 | 20.05.2021 |                  |       |
 | 27.05.2021 |                  |       |
 | 10.06.2021 | **Written Exam** | ---   |
