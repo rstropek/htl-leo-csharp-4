@@ -1,0 +1,1001 @@
+country	time_of_day	animal	attacks
+Myanmar	Afternoon	American black bear	7330
+Russia	Evening	Crimson-breasted shrike	6732
+Russia	Morning	Asian openbill	6533
+United States	Afternoon	Weaver, red-billed buffalo	8648
+China	Night	Roller, lilac-breasted	6829
+Somalia	Morning	Ibex	1685
+China	Evening	Macaw, blue and yellow	7194
+Philippines	Morning	Devil, tasmanian	3591
+North Korea	Afternoon	Tortoise, asian foreset	7493
+China	Evening	Crane, blue	8282
+Norway	Morning	Peregrine falcon	2163
+Philippines	Evening	Water legaan	3302
+Indonesia	Night	Tayra	8746
+Zimbabwe	Evening	Swainson's francolin	4136
+France	Morning	Magistrate black colobus	425
+China	Morning	Cottonmouth	8417
+Russia	Afternoon	Vulture, bengal	9259
+Finland	Morning	Northern elephant seal	5821
+Macedonia	Morning	Wild water buffalo	511
+Russia	Afternoon	Duiker, gray	5277
+Sweden	Night	Rufous-collared sparrow	8485
+Cuba	Afternoon	Coatimundi, ring-tailed	5224
+Thailand	Night	Lesser mouse lemur	4990
+Iran	Night	Boa, emerald green tree	3173
+France	Afternoon	Black-tailed prairie dog	9782
+Russia	Evening	Peacock, indian	518
+Peru	Evening	Glider, feathertail	1646
+Russia	Afternoon	African ground squirrel (unidentified)	2518
+China	Night	Indian peacock	8349
+Poland	Night	Ring-tailed possum	7812
+France	Morning	Ibis, glossy	6962
+Poland	Morning	Cat, african wild	9862
+Dominican Republic	Afternoon	American black bear	6509
+Japan	Evening	Eastern grey kangaroo	3264
+Nigeria	Night	Spurfowl, yellow-necked	1721
+Indonesia	Night	Worm snake (unidentified)	7890
+Portugal	Night	Deer, roe	4075
+Russia	Evening	Eurasian beaver	7601
+Portugal	Afternoon	American bighorn sheep	4149
+Finland	Night	Macaque, rhesus	480
+China	Evening	Duck, blue	6310
+South Africa	Afternoon	Snowy sheathbill	8998
+China	Evening	Tawny eagle	6520
+China	Evening	Superb starling	5167
+Thailand	Night	Australian masked owl	915
+Brazil	Afternoon	Gray heron	9992
+Russia	Afternoon	Robin, kalahari scrub	6153
+Slovenia	Evening	Eagle, tawny	4998
+Nicaragua	Morning	Bushpig	5071
+China	Night	Beaver, north american	7132
+Albania	Morning	Racer snake	2692
+Mexico	Evening	Beisa oryx	7338
+Latvia	Morning	Cereopsis goose	4775
+Uzbekistan	Night	Kori bustard	1376
+Czech Republic	Morning	Rattlesnake, eastern diamondback	9076
+United States	Afternoon	Malabar squirrel	9993
+Portugal	Morning	Cereopsis goose	6816
+Cyprus	Night	Wattled crane	8700
+China	Morning	Southern lapwing	7687
+Austria	Evening	Common dolphin	3478
+China	Morning	Cow, scottish highland	6679
+China	Evening	Parakeet, rose-ringed	4914
+Indonesia	Night	Arctic hare	8680
+China	Afternoon	Bear, american black	4814
+Poland	Morning	Kiskadee, great	9476
+Colombia	Evening	Common zorro	6499
+China	Afternoon	Seal, southern elephant	6322
+Portugal	Evening	Gazelle, grant's	3999
+China	Night	Great white pelican	5511
+Peru	Morning	Golden-mantled ground squirrel	4204
+China	Evening	Alpaca	3195
+Argentina	Afternoon	Black-capped capuchin	6648
+France	Morning	Dama wallaby	516
+Poland	Night	Gull, lava	8329
+China	Afternoon	Boa, malagasy ground	5137
+China	Morning	Yellow-billed hornbill	9915
+Czech Republic	Evening	Bent-toed gecko	4711
+China	Afternoon	Greater flamingo	1231
+Philippines	Night	Sloth, two-toed	1862
+France	Afternoon	Boa, cook's tree	9140
+Indonesia	Evening	Wallaby, river	8459
+China	Evening	Macaque, rhesus	130
+Indonesia	Evening	Pocket gopher (unidentified)	9526
+China	Afternoon	Mynah, common	1417
+China	Night	White-tailed jackrabbit	2144
+Sweden	Morning	Gull, lava	495
+Indonesia	Night	Cape raven	5176
+Poland	Morning	Robin, kalahari scrub	7275
+Peru	Evening	Bird, magnificent frigate	1436
+Kenya	Evening	Jackal, black-backed	299
+Poland	Afternoon	Deer, red	5814
+Russia	Afternoon	Bandicoot, southern brown	5107
+Greece	Evening	Egyptian vulture	4848
+Russia	Evening	Squirrel, arctic ground	3299
+Argentina	Night	Common palm civet	9439
+Peru	Night	Parakeet, rose-ringed	3456
+China	Afternoon	Stork, marabou	7348
+Brazil	Night	Macaw, scarlet	4451
+Madagascar	Evening	Monitor, white-throated	6175
+France	Night	Kinkajou	7412
+Russia	Night	Rhesus macaque	1304
+Canada	Afternoon	Galapagos dove	8849
+Poland	Afternoon	Argalis	4600
+Japan	Night	Puma, south american	1962
+Tanzania	Night	Chacma baboon	5260
+Brazil	Night	Leopard	9713
+Indonesia	Night	Lava gull	8058
+Iran	Afternoon	Squirrel glider	5712
+Canada	Morning	Giant anteater	985
+China	Morning	Bustard, kori	8571
+Philippines	Morning	Deer, mule	4053
+China	Night	Squirrel, thirteen-lined	9583
+Brazil	Night	White-throated toucan	8424
+China	Night	Eurasian red squirrel	6610
+Georgia	Night	Glossy ibis	8475
+Colombia	Night	Argalis	5502
+Argentina	Morning	Common langur	3708
+China	Night	Glossy starling (unidentified)	6473
+Indonesia	Morning	Puku	1785
+Indonesia	Evening	Baboon, chacma	8648
+Philippines	Afternoon	Snake, green vine	4974
+Argentina	Afternoon	Woylie	4672
+China	Morning	Vulture, white-rumped	8426
+Peru	Evening	Weaver, chestnut	5980
+Indonesia	Night	Lapwing (unidentified)	1775
+Indonesia	Morning	Blackbuck	5337
+Indonesia	Night	Phalarope, northern	7880
+Armenia	Morning	Wolf spider	8395
+China	Night	Asiatic wild ass	343
+Thailand	Morning	Heron, giant	1616
+Colombia	Morning	Bird, pied butcher	6740
+China	Evening	Small-toothed palm civet	8410
+Thailand	Afternoon	Common grenadier	7715
+Poland	Afternoon	Turtle, long-necked	3936
+Armenia	Evening	Brush-tailed phascogale	8307
+Indonesia	Night	Swamp deer	4753
+Macedonia	Evening	Puma	8062
+China	Morning	Goose, greylag	6057
+Albania	Afternoon	Southern white-crowned shrike	9116
+Lithuania	Afternoon	Boar, wild	5028
+Indonesia	Evening	Manatee	851
+Serbia	Evening	Eurasian badger	9758
+Mongolia	Afternoon	Stanley bustard	2954
+Indonesia	Afternoon	Scottish highland cow	4367
+Sweden	Evening	Gray rhea	4062
+Indonesia	Evening	Shark, blue	155
+France	Night	Robin, kalahari scrub	9250
+Indonesia	Night	Cliffchat, mocking	1815
+Serbia	Morning	Magellanic penguin	9024
+Portugal	Night	Sacred ibis	432
+Portugal	Afternoon	Rhea, greater	8094
+El Salvador	Evening	Crab-eating raccoon	3863
+South Korea	Night	Coke's hartebeest	6651
+Philippines	Evening	Gull, kelp	302
+Poland	Morning	Eurasian badger	9577
+Thailand	Morning	Jaeger, long-tailed	4556
+Netherlands	Morning	Common dolphin	4624
+Poland	Afternoon	Sociable weaver	5333
+China	Morning	Sage hen	2846
+Ecuador	Morning	Red-tailed wambenger	3622
+Indonesia	Afternoon	Civet (unidentified)	4822
+Russia	Night	Cat, cape wild	1411
+Greece	Night	Sambar	5569
+Thailand	Morning	Squirrel, antelope ground	8344
+Tanzania	Evening	Hornbill, red-billed	3759
+Mali	Night	Lion, galapagos sea	3795
+Indonesia	Evening	Greater rhea	1583
+Indonesia	Afternoon	African porcupine	8254
+Russia	Evening	Water legaan	8264
+Peru	Evening	Baboon, savanna	8200
+Chile	Afternoon	Onager	1192
+Argentina	Evening	Malagasy ground boa	8168
+Mongolia	Morning	Dragon, netted rock	9514
+Ireland	Afternoon	Black kite	1859
+Poland	Night	Wolf, common	5598
+Peru	Afternoon	Stork, marabou	4131
+Portugal	Night	Fox, pampa gray	7396
+Morocco	Night	Blue catfish	6232
+China	Evening	Koala	7095
+Nigeria	Night	African fish eagle	7176
+Afghanistan	Afternoon	Weaver, chestnut	7217
+Hungary	Night	Common long-nosed armadillo	3156
+Indonesia	Evening	Southern tamandua	2963
+Poland	Evening	Cobra (unidentified)	9559
+Serbia	Night	Dove, little brown	4027
+Russia	Night	Sable antelope	7366
+Argentina	Morning	African porcupine	4902
+China	Evening	Turkey, common	4047
+China	Afternoon	Giant armadillo	1320
+Russia	Evening	Indian mynah	8082
+Uruguay	Morning	Springbuck	2730
+China	Night	Eastern quoll	1913
+Poland	Morning	Weaver, lesser masked	4588
+Indonesia	Evening	Large cormorant	7401
+Chile	Night	Kangaroo, western grey	7212
+Indonesia	Evening	African lion	3757
+Ukraine	Afternoon	Cow, scottish highland	4766
+China	Evening	Red and blue macaw	3968
+United States	Morning	Red-tailed cockatoo	8420
+Armenia	Night	Heron, gray	1992
+China	Evening	Mongoose, yellow	7189
+Philippines	Morning	Black-cheeked waxbill	3255
+Albania	Afternoon	Stork, jabiru	9329
+China	Evening	Jackal, asiatic	1290
+Brazil	Morning	Dolphin, bottle-nose	2827
+Indonesia	Evening	Grebe, little	9768
+Nicaragua	Afternoon	Tamandua, southern	3317
+China	Evening	Blesbok	2219
+Thailand	Morning	Orca	534
+Kazakhstan	Night	Giant heron	728
+Norfolk Island	Evening	Royal tern	8281
+Portugal	Evening	Hyena, brown	2878
+Venezuela	Morning	Nine-banded armadillo	486
+China	Evening	Screamer, crested	3643
+Indonesia	Evening	Red hartebeest	1261
+Indonesia	Night	Bandicoot, long-nosed	405
+Greece	Night	Parrot, hawk-headed	377
+Philippines	Night	Snake, racer	5697
+Indonesia	Afternoon	Wolf, mexican	7460
+Indonesia	Morning	Vulture, oriental white-backed	6775
+Guatemala	Morning	Hanuman langur	8895
+France	Afternoon	Ringtail	8259
+United Kingdom	Night	Raccoon dog	2162
+Ukraine	Afternoon	Arctic ground squirrel	3508
+Indonesia	Night	Bee-eater, white-fronted	9062
+Thailand	Morning	Peccary, white-lipped	2387
+Russia	Evening	White-faced whistling duck	3782
+Netherlands	Afternoon	Bird, pied butcher	5600
+Czech Republic	Night	Large cormorant	9981
+Czech Republic	Morning	American black bear	6627
+Russia	Night	Eastern grey kangaroo	7692
+Norway	Evening	Bird (unidentified)	4386
+Ivory Coast	Night	Glossy ibis	952
+Russia	Morning	Waterbuck, defassa	7700
+China	Morning	Ground monitor (unidentified)	5408
+Morocco	Afternoon	Fox, cape	6052
+Indonesia	Evening	Tortoise, burmese brown mountain	7908
+Brazil	Night	Purple moorhen	7726
+China	Afternoon	Common long-nosed armadillo	5330
+Mauritania	Morning	Aardwolf	2938
+Indonesia	Evening	Herring gull	6773
+Indonesia	Morning	Bee-eater, carmine	1430
+China	Morning	Canadian river otter	8353
+Morocco	Evening	Hawk, ferruginous	8479
+Poland	Morning	Snake, tiger	9756
+China	Morning	Fox, bat-eared	4354
+Netherlands	Afternoon	Shrike, southern white-crowned	5323
+Russia	Morning	Snowy sheathbill	9306
+Portugal	Evening	Eastern diamondback rattlesnake	9354
+France	Afternoon	Ringtail cat	8781
+Iraq	Morning	Lion, steller's sea	7296
+China	Evening	Water monitor	5560
+Serbia	Night	Topi	1824
+Thailand	Evening	Wolf, mexican	1162
+Indonesia	Morning	Beaver, european	4949
+Poland	Night	Goldeneye, common	7629
+United States	Evening	Ringtail	3040
+China	Morning	Prehensile-tailed porcupine	5746
+South Africa	Morning	Eastern dwarf mongoose	4077
+Netherlands	Afternoon	Lion, steller sea	8742
+Sweden	Evening	Ostrich	6104
+Peru	Afternoon	Giant otter	5046
+Indonesia	Morning	Gonolek, burchell's	330
+Philippines	Evening	Bird, black-throated butcher	5489
+Indonesia	Night	Macaw, scarlet	1528
+Uruguay	Afternoon	Possum, western pygmy	8643
+Ireland	Night	Snow goose	4093
+China	Afternoon	Timber wolf	6200
+Indonesia	Evening	Heron, green	5324
+United States	Night	Dik, kirk's dik	7840
+Japan	Morning	Puku	4832
+Thailand	Night	Laughing dove	5381
+China	Morning	Sable antelope	3275
+Japan	Evening	Common wolf	302
+Canada	Evening	Cobra, egyptian	8596
+Jordan	Afternoon	Pheasant, ring-necked	4109
+Malaysia	Morning	Hoopoe, eurasian	3941
+Brazil	Evening	Kangaroo, eastern grey	7375
+Portugal	Morning	Hornbill, southern ground	1198
+Serbia	Evening	Lion, southern sea	4852
+Thailand	Morning	Malagasy ground boa	1559
+Indonesia	Night	Antelope ground squirrel	9060
+Brazil	Morning	Superb starling	9977
+South Africa	Evening	Large cormorant	1482
+Croatia	Evening	Ferret, black-footed	1660
+Thailand	Night	Agouti	5606
+Brazil	Afternoon	Asian lion	1361
+Armenia	Afternoon	Squirrel, eastern fox	4648
+China	Night	Coqui partridge	9764
+France	Evening	Currasow (unidentified)	5622
+Ukraine	Afternoon	Brown lemur	6177
+Mongolia	Night	Albatross, galapagos	6955
+Mauritius	Evening	Dog, bush	6846
+China	Evening	Lion, asian	7600
+Nauru	Night	North American river otter	1882
+Russia	Afternoon	Marine iguana	3043
+Philippines	Afternoon	Short-beaked echidna	7272
+China	Afternoon	Nile crocodile	8201
+Philippines	Evening	Quail, gambel's	7061
+China	Morning	Otter, brazilian	7616
+Philippines	Morning	Sun gazer	5770
+Philippines	Morning	Spider, wolf	6385
+Sweden	Night	Cook's tree boa	5469
+France	Morning	Crane, black-crowned	5875
+China	Morning	Badger, eurasian	4237
+Kazakhstan	Morning	Lesser double-collared sunbird	5124
+China	Afternoon	Wallaby, river	6603
+Tunisia	Night	Antelope, sable	9382
+Belarus	Afternoon	Bustard, denham's	215
+Morocco	Morning	Plover, three-banded	1671
+Israel	Evening	Coke's hartebeest	5182
+Mali	Night	Waxbill, blue	1178
+China	Morning	Eastern cottontail rabbit	8553
+Philippines	Afternoon	Heron, yellow-crowned night	201
+China	Evening	Iguana, marine	3370
+Denmark	Night	Gorilla, western lowland	9837
+Russia	Night	Pademelon, red-legged	9993
+Poland	Night	Northern fur seal	6029
+Serbia	Afternoon	Mongoose, small indian	9448
+Honduras	Evening	European spoonbill	1166
+Uruguay	Morning	Brindled gnu	4855
+Philippines	Morning	Carpet snake	1988
+Philippines	Night	Chameleon (unidentified)	8797
+Philippines	Night	Coqui partridge	1978
+Vietnam	Night	Buffalo, asian water	1972
+Chile	Afternoon	Devil, tasmanian	4066
+Philippines	Morning	Common seal	6354
+Uzbekistan	Afternoon	Tarantula, salmon pink bird eater	5274
+Dominican Republic	Night	African lynx	2245
+France	Evening	Civet, small-toothed palm	3329
+Poland	Night	Crane, blue	7397
+China	Evening	Collared lizard	8532
+Brazil	Morning	Goose, canada	4346
+Uzbekistan	Afternoon	Swan, trumpeter	3520
+Indonesia	Afternoon	Lion, asian	6390
+Peru	Morning	Vulture, lappet-faced	9045
+Nigeria	Afternoon	Blesbok	5178
+Sweden	Afternoon	American racer	7095
+Russia	Morning	Deer, mule	9098
+United States	Afternoon	Wallaby, bennett's	2191
+Indonesia	Morning	Skua, great	2205
+Nicaragua	Night	Tammar wallaby	2999
+Honduras	Evening	Lemming, arctic	5151
+Portugal	Evening	Giant girdled lizard	5281
+Thailand	Night	Frilled lizard	1028
+Tanzania	Morning	Teal, hottentot	7469
+Honduras	Night	Golden eagle	1495
+Portugal	Night	Western grey kangaroo	4171
+Sweden	Afternoon	Porcupine, crested	2276
+Indonesia	Morning	Bear, sloth	8650
+New Zealand	Night	Pacific gull	1983
+Portugal	Night	Tyrant flycatcher	4348
+Russia	Evening	Jacana, african	755
+Sweden	Morning	Cape starling	1137
+China	Evening	Baboon, savanna	1708
+Japan	Evening	Eland, common	7530
+Argentina	Night	Blue-footed booby	8415
+Poland	Morning	Barbet, levaillant's	9752
+Indonesia	Night	Gazer, sun	4828
+Bosnia and Herzegovina	Morning	Tortoise, burmese brown mountain	9316
+Madagascar	Evening	Opossum, american virginia	8668
+Indonesia	Evening	Mountain goat	4212
+Indonesia	Morning	Magnificent frigate bird	947
+South Africa	Evening	Long-billed corella	3814
+Portugal	Night	Galapagos dove	3152
+United States	Evening	Black-throated cardinal	3515
+Colombia	Afternoon	Deer, swamp	739
+United States	Afternoon	Greater flamingo	5436
+Portugal	Night	Cat, ringtail	2345
+Russia	Night	Northern elephant seal	3234
+China	Afternoon	Gecko, barking	7640
+China	Night	Eagle, crowned	4783
+Brazil	Evening	Black-eyed bulbul	9180
+Ukraine	Morning	Gull, dusky	2789
+Serbia	Night	Hen, sage	2788
+France	Afternoon	Sugar glider	919
+France	Afternoon	Darter, african	4816
+Japan	Evening	Stork, yellow-billed	3055
+Philippines	Morning	Nile crocodile	2909
+China	Night	Gelada baboon	8564
+Finland	Afternoon	Malachite kingfisher	3545
+Turkmenistan	Evening	Sheep, american bighorn	1510
+Yemen	Evening	Oriental short-clawed otter	7722
+Poland	Night	African jacana	4497
+Sweden	Night	Green-winged trumpeter	551
+Peru	Morning	Mongoose, banded	5448
+Poland	Morning	White-eye, cape	8016
+El Salvador	Evening	Asian elephant	2076
+Russia	Afternoon	Cow, scottish highland	7424
+Portugal	Evening	Phalarope, grey	8612
+Indonesia	Night	Goanna lizard	2203
+Angola	Morning	Starling, cape	7144
+Japan	Night	Bird (unidentified)	6413
+Japan	Afternoon	Greater flamingo	2595
+Indonesia	Afternoon	Feral rock pigeon	4773
+Czech Republic	Night	Cobra (unidentified)	3703
+China	Night	Capybara	7214
+Isle of Man	Morning	Common turkey	6834
+North Korea	Afternoon	Painted stork	3391
+Peru	Night	Crane, sarus	1930
+Angola	Afternoon	Two-banded monitor	6756
+Norway	Morning	Hyena, striped	8329
+Mongolia	Evening	Fox, arctic	5826
+United States	Evening	Bonnet macaque	1896
+Netherlands	Morning	Duiker, gray	3394
+France	Evening	Monkey, vervet	3316
+Greece	Night	Flicker, campo	196
+Cyprus	Morning	Polecat, african	3512
+Indonesia	Afternoon	Shrike, common boubou	6540
+Mexico	Morning	Southern sea lion	9853
+China	Evening	Galah	2101
+Philippines	Night	Badger, american	9269
+France	Evening	Nubian bee-eater	5154
+China	Evening	Vulture, turkey	7077
+Portugal	Evening	Bustard, denham's	4831
+Syria	Night	Southern right whale	7873
+Thailand	Morning	American buffalo	6584
+Russia	Afternoon	Common seal	2876
+China	Evening	White-nosed coatimundi	4486
+Thailand	Afternoon	Magpie, black-backed	9411
+Indonesia	Afternoon	White-winged black tern	7907
+Nigeria	Night	Fox, north american red	8758
+Estonia	Morning	Red lava crab	7417
+Mexico	Morning	Cat, cape wild	3369
+Nigeria	Morning	White-faced tree rat	6303
+Russia	Evening	Blue wildebeest	3668
+France	Evening	Jungle cat	564
+China	Afternoon	White-cheeked pintail	9876
+Nicaragua	Morning	Brazilian tapir	1898
+Ukraine	Morning	Squirrel, eastern fox	9233
+France	Morning	Insect, stick	6817
+Russia	Morning	Crow, pied	4547
+Indonesia	Evening	Common dolphin	7134
+Argentina	Morning	Mexican beaded lizard	4404
+Philippines	Evening	Weeper capuchin	2143
+China	Night	Burmese black mountain tortoise	5890
+Indonesia	Evening	Marine iguana	3563
+Luxembourg	Night	Spoonbill, european	2509
+Portugal	Evening	Asiatic wild ass	9838
+Russia	Morning	Boa, malagasy ground	6118
+China	Morning	Fox, savanna	8374
+Honduras	Afternoon	Dove, laughing	764
+Palestinian Territory	Night	Flightless cormorant	2180
+Portugal	Morning	Otter, small-clawed	1679
+Cameroon	Night	African ground squirrel (unidentified)	2310
+Chile	Night	Legaan, ground	832
+China	Afternoon	Bulbul, black-eyed	8115
+Albania	Night	Flamingo, chilean	4354
+China	Afternoon	Yellow-headed caracara	4705
+Portugal	Night	King vulture	3003
+Poland	Morning	Crested bunting	1845
+Canada	Morning	Small-clawed otter	7287
+Serbia	Night	Lemur, lesser mouse	9713
+Philippines	Afternoon	Racer, blue	5936
+Peru	Night	Weaver, chestnut	7302
+China	Night	American beaver	4965
+Czech Republic	Morning	Pygmy possum	677
+South Korea	Night	Grey heron	7556
+Taiwan	Evening	Bushbaby, large-eared	4710
+France	Evening	Hornbill, leadbeateri's ground	3163
+Uganda	Afternoon	Common raccoon	3740
+Philippines	Night	Seal, northern elephant	6629
+United States	Afternoon	Dik, kirk's dik	2033
+China	Night	Galapagos mockingbird	5867
+Brazil	Night	Capuchin, white-fronted	3542
+China	Night	Squirrel, uinta ground	5298
+China	Night	Common long-nosed armadillo	8629
+Russia	Evening	Red-winged blackbird	344
+Philippines	Evening	Pheasant, common	2995
+Poland	Morning	Dusky gull	9097
+Japan	Morning	Oribi	999
+Cyprus	Night	Civet (unidentified)	5707
+Canada	Afternoon	Red-billed hornbill	6224
+China	Night	Whale, killer	5960
+Mauritania	Afternoon	Black-faced kangaroo	710
+Norway	Night	Jaguarundi	6728
+Indonesia	Night	Black curlew	4857
+Brazil	Morning	Beisa oryx	281
+Sweden	Morning	Oryx, fringe-eared	9052
+Honduras	Morning	Hornbill, southern ground	6701
+China	Morning	Yellow-rumped siskin	8186
+Italy	Evening	Flightless cormorant	8129
+Indonesia	Afternoon	Jaguar	9143
+Cyprus	Evening	Wallaby, red-necked	9559
+Finland	Afternoon	Sacred ibis	3749
+Cameroon	Morning	Asian elephant	771
+China	Afternoon	Antelope, four-horned	6253
+Bulgaria	Night	Cheetah	4210
+El Salvador	Night	Lizard, desert spiny	2641
+United States	Morning	Galapagos albatross	8791
+Indonesia	Evening	Macaque, bonnet	1429
+Saudi Arabia	Afternoon	Nighthawk, common	2420
+Brazil	Evening	Eastern grey kangaroo	3798
+Indonesia	Afternoon	American woodcock	2370
+Philippines	Evening	Elk, Wapiti	5824
+China	Afternoon	Kangaroo, jungle	4633
+Nigeria	Night	Woolly-necked stork	3559
+New Caledonia	Night	Ox, musk	9713
+Cuba	Morning	Scaly-breasted lorikeet	5623
+Thailand	Morning	Fox, bat-eared	9270
+China	Morning	Radiated tortoise	7656
+Portugal	Morning	Snake (unidentified)	6351
+Portugal	Night	Gecko (unidentified)	3575
+Haiti	Morning	Tayra	531
+Bolivia	Morning	Avocet, pied	8916
+Indonesia	Afternoon	Great kiskadee	8137
+Botswana	Evening	Marabou stork	9571
+Netherlands	Night	Malachite kingfisher	3407
+Philippines	Afternoon	Eastern indigo snake	7005
+Finland	Evening	Squirrel, red	4072
+Indonesia	Morning	Pied butcher bird	7993
+China	Afternoon	Sloth, hoffman's	2854
+China	Morning	Admiral, indian red	494
+Russia	Night	Flamingo, roseat	6838
+China	Evening	Lizard, blue-tongued	7798
+Russia	Morning	Common boubou shrike	5920
+China	Night	Galapagos penguin	1314
+Poland	Night	Beaver, eurasian	9173
+Canada	Evening	Shelduck, common	1077
+France	Night	Constrictor, eastern boa	374
+United States	Morning	Elephant, asian	9748
+China	Morning	Nyala	6103
+Greece	Night	Australian masked owl	2425
+Russia	Afternoon	White-winged black tern	6823
+United Arab Emirates	Afternoon	Roseate cockatoo	1295
+Yemen	Afternoon	Canadian river otter	543
+Guadeloupe	Afternoon	Colobus, black and white	9230
+Vietnam	Night	Lava gull	6118
+Colombia	Evening	Heron, grey	3513
+Egypt	Afternoon	Possum, common brushtail	7593
+Micronesia	Afternoon	Harbor seal	8298
+Belarus	Evening	Guerza	2244
+Thailand	Evening	Red-tailed phascogale	2304
+Philippines	Morning	Kangaroo, black-faced	2286
+Indonesia	Morning	Malagasy ground boa	7685
+Ukraine	Night	Iguana, land	5727
+Burkina Faso	Morning	Beaver, north american	6859
+Thailand	Night	Bird, black-throated butcher	8571
+Uganda	Evening	Tapir, brazilian	4566
+Brazil	Morning	Small Indian mongoose	4292
+Cyprus	Afternoon	Jackal, golden	5033
+United States	Night	Golden jackal	2200
+China	Afternoon	Avocet, pied	5138
+Czech Republic	Morning	Common rhea	2386
+Ukraine	Morning	Porcupine, african	2072
+Armenia	Evening	Tammar wallaby	2681
+Uruguay	Evening	Crab-eating fox	4110
+Estonia	Afternoon	Rufous tree pie	8174
+South Korea	Morning	Downy woodpecker	1026
+China	Evening	European shelduck	6452
+Greece	Afternoon	Hanuman langur	826
+Indonesia	Afternoon	Ground legaan	8680
+Colombia	Morning	Quail, gambel's	4379
+Poland	Morning	American badger	4889
+Mexico	Night	Eagle, african fish	213
+Poland	Evening	Swamp deer	2484
+Indonesia	Night	Salmon, sockeye	9490
+Sierra Leone	Afternoon	Devil, tasmanian	4130
+Poland	Afternoon	Cormorant, king	6875
+Sweden	Night	Capuchin, weeper	649
+China	Afternoon	Bontebok	2555
+China	Morning	Fringe-eared oryx	9001
+Indonesia	Night	Capuchin, brown	572
+Czech Republic	Afternoon	Magnificent frigate bird	6995
+Egypt	Morning	Lion, african	6890
+Poland	Evening	Hippopotamus	9942
+China	Morning	Dove, white-winged	2511
+United States	Afternoon	Asian lion	6156
+China	Morning	Langur, gray	1948
+Portugal	Night	Long-necked turtle	6788
+Venezuela	Evening	Common wolf	8499
+Sweden	Afternoon	Jackal, black-backed	3348
+Colombia	Morning	Black-crowned night heron	520
+Mayotte	Night	Gnu, brindled	3256
+China	Morning	Alligator, american	2952
+South Africa	Morning	Jackal, black-backed	3845
+China	Night	Skunk, western spotted	4518
+Indonesia	Night	Swainson's francolin	9927
+China	Morning	Plains zebra	5225
+Philippines	Afternoon	Koala	1665
+China	Night	Indian leopard	4141
+Denmark	Evening	Water monitor	7277
+Indonesia	Morning	Crane, blue	7802
+Syria	Afternoon	American Virginia opossum	3139
+Poland	Afternoon	South American meadowlark (unidentified)	5818
+Czech Republic	Evening	Mynah, common	3146
+Indonesia	Evening	River wallaby	7965
+United States	Night	Long-billed corella	8119
+Indonesia	Morning	Nelson ground squirrel	7898
+Azerbaijan	Afternoon	Blue-footed booby	1215
+Latvia	Evening	Marshbird, brown and yellow	7483
+Palestinian Territory	Morning	Sidewinder	3552
+France	Evening	Fork-tailed drongo	7294
+Indonesia	Afternoon	Sheep, american bighorn	9724
+Japan	Morning	Bustard, stanley	1471
+Peru	Night	Lesser masked weaver	5460
+China	Night	Cape clawless otter	6839
+Ireland	Night	Barrows goldeneye	6073
+China	Night	Snake (unidentified)	4692
+Russia	Afternoon	Argalis	3048
+Tajikistan	Morning	Jackal, golden	4382
+Tanzania	Afternoon	Skimmer, four-spotted	8279
+United States	Night	Finch, common melba	5226
+Indonesia	Night	Yellow-bellied marmot	4192
+Indonesia	Afternoon	Whale, killer	3794
+Russia	Night	Western bearded dragon	1891
+Ukraine	Night	Nuthatch, red-breasted	8464
+Japan	Evening	Red-necked wallaby	566
+Canada	Night	Cormorant, great	2690
+Portugal	Evening	White-lipped peccary	1681
+Portugal	Afternoon	Bahama pintail	1887
+Colombia	Morning	Shark, blue	7156
+Philippines	Afternoon	Fowl, helmeted guinea	5700
+Indonesia	Morning	Bird, red-billed tropic	1731
+Morocco	Afternoon	Dove, white-winged	9596
+Russia	Night	Squirrel glider	4221
+China	Afternoon	Hanuman langur	1730
+Iran	Afternoon	Duck, mountain	4846
+Poland	Afternoon	Gemsbok	8575
+China	Night	Rhea, common	4110
+Mexico	Evening	Plains zebra	8975
+Poland	Morning	Carpet python	5460
+China	Morning	Roller, lilac-breasted	8409
+Brazil	Afternoon	Blesbok	3737
+Indonesia	Evening	Bandicoot, long-nosed	6230
+Indonesia	Evening	Great white pelican	9761
+Kazakhstan	Night	White-bellied sea eagle	322
+China	Night	Cormorant, flightless	1841
+Zambia	Morning	Booby, blue-faced	7079
+Russia	Afternoon	Pigeon, feral rock	8717
+Morocco	Night	Toddy cat	7954
+Philippines	Morning	Vulture, black	805
+China	Evening	Oribi	9801
+China	Afternoon	Boa, malagasy ground	5312
+United States	Evening	Grenadier, common	7312
+Syria	Afternoon	Coyote	3977
+Philippines	Night	Mynah, common	5079
+Finland	Night	Emerald green tree boa	381
+Indonesia	Afternoon	Violet-eared waxbill	7710
+Greece	Afternoon	Turaco, violet-crested	9406
+Indonesia	Morning	Yak	2873
+China	Afternoon	Striped hyena	6419
+Colombia	Morning	Bird, pied butcher	4136
+United States	Morning	Cat, jungle	5710
+Kenya	Afternoon	Grenadier, common	5763
+Malaysia	Afternoon	Black-eyed bulbul	9370
+Mauritius	Night	Badger, honey	1637
+Nigeria	Night	Galapagos albatross	9358
+China	Night	Eastern boa constrictor	4835
+China	Night	Deer, swamp	4902
+Syria	Evening	Eagle, bald	3823
+Cyprus	Evening	Gonolek, burchell's	6061
+Colombia	Afternoon	Turtle, long-necked	7620
+Peru	Afternoon	Gazer, sun	1791
+Japan	Night	Mourning collared dove	2487
+Sweden	Morning	Goose, cape barren	7555
+Palestinian Territory	Morning	Elephant, asian	8157
+Finland	Night	Greater sage grouse	9983
+Thailand	Morning	Egyptian cobra	1072
+Saudi Arabia	Morning	Cat, toddy	7795
+Philippines	Evening	Galapagos penguin	9375
+Brazil	Evening	Gemsbok	9992
+Spain	Morning	Elephant, african	3389
+China	Evening	Toucan, white-throated	7581
+United States	Morning	Snow goose	2446
+China	Afternoon	Feathertail glider	1773
+Philippines	Morning	Cape clawless otter	4013
+Brazil	Morning	Bear, polar	5880
+Tunisia	Evening	Zorro, azara's	1672
+Colombia	Afternoon	Boat-billed heron	3854
+Nepal	Morning	Four-horned antelope	7061
+Czech Republic	Morning	Stork, marabou	1616
+China	Afternoon	Cape starling	4217
+China	Morning	Stick insect	2370
+Russia	Afternoon	Southern elephant seal	3496
+Poland	Afternoon	Dog, black-tailed prairie	4153
+Equatorial Guinea	Night	Cat, african wild	2836
+Zambia	Night	South American sea lion	7622
+Indonesia	Morning	Carmine bee-eater	1451
+Armenia	Morning	Slender-billed cockatoo	9603
+China	Evening	Badger, european	4723
+Tokelau	Afternoon	Deer, swamp	7069
+Portugal	Morning	Slender loris	6279
+Peru	Evening	Chilean flamingo	6771
+France	Evening	Long-tailed jaeger	8194
+Philippines	Night	Yellow-brown sungazer	3103
+New Zealand	Night	North American beaver	3362
+Finland	Morning	Levaillant's barbet	1687
+Sweden	Afternoon	Monkey, black spider	8958
+Brazil	Afternoon	Wallaby, agile	5079
+Japan	Night	Genoveva	9632
+Sweden	Night	Comb duck	1371
+China	Night	Small-spotted genet	7715
+Saudi Arabia	Afternoon	Owl, burrowing	6285
+Greece	Morning	Common genet	729
+Guinea	Morning	Crowned hawk-eagle	7745
+Madagascar	Afternoon	Lizard, collared	3877
+Montenegro	Evening	Gazelle, grant's	8395
+Brazil	Afternoon	Lesser masked weaver	9330
+Philippines	Night	Groundhog	3002
+South Korea	Morning	Ox, musk	7561
+Croatia	Night	Dove, mourning collared	7303
+Russia	Evening	African pied wagtail	794
+Comoros	Evening	Raccoon, crab-eating	6023
+China	Afternoon	Scottish highland cow	7039
+Poland	Morning	Frogmouth, tawny	2995
+Russia	Night	Sandgrouse, yellow-throated	2354
+Czech Republic	Evening	Indian jackal	7552
+Indonesia	Night	Sandgrouse, yellow-throated	9378
+Japan	Afternoon	Alligator, american	2968
+Canada	Evening	Alligator, mississippi	7182
+Nigeria	Morning	Llama	2902
+Pakistan	Morning	White-winged tern	4137
+Indonesia	Morning	Cormorant, neotropic	8609
+Ukraine	Afternoon	Cormorant, javanese	8727
+China	Night	Seal, northern fur	721
+Brazil	Afternoon	Stork, woolly-necked	7160
+Brazil	Afternoon	Currasow (unidentified)	334
+China	Morning	Salmon pink bird eater tarantula	5805
+North Korea	Morning	Bulbul, african red-eyed	2118
+Philippines	Afternoon	Stork, white	9904
+China	Evening	Possum, common brushtail	2184
+Yemen	Afternoon	Rhinoceros, black	8801
+China	Night	Jacana, african	2266
+Argentina	Afternoon	Honey badger	3442
+Brazil	Afternoon	Chuckwalla	1540
+Sweden	Afternoon	Lion, asian	3243
+China	Afternoon	Snake, green vine	4550
+Libya	Afternoon	Great kiskadee	3309
+Indonesia	Night	Crake, african black	3785
+China	Evening	Ring-tailed possum	2018
+Vietnam	Evening	Red kangaroo	416
+Indonesia	Night	Brindled gnu	971
+Indonesia	Afternoon	Magellanic penguin	1840
+United States	Afternoon	Tiger cat	5531
+Indonesia	Morning	Deer, swamp	8671
+Russia	Night	Greater kudu	265
+China	Night	Common nighthawk	8028
+Nigeria	Morning	Rufous tree pie	2512
+Qatar	Morning	Screamer, crested	5023
+France	Morning	Crab-eating raccoon	4881
+Poland	Afternoon	Caiman, spectacled	5805
+Botswana	Evening	Royal tern	6951
+Peru	Morning	Paddy heron (unidentified)	5992
+Indonesia	Morning	Burmese black mountain tortoise	8163
+China	Night	Plover, three-banded	404
+Portugal	Afternoon	Oystercatcher, blackish	6560
+Argentina	Night	Tropical buckeye butterfly	5123
+Nigeria	Night	Lion, asian	5017
+Democratic Republic of the Congo	Evening	Ring-tailed coatimundi	9109
+Peru	Afternoon	Lion, steller sea	5642
+Indonesia	Night	Indian mynah	2273
+China	Night	Snow goose	8066
+Indonesia	Afternoon	Goose, andean	3985
+Guatemala	Morning	Galapagos hawk	4063
+Finland	Morning	South American puma	3376
+Indonesia	Evening	Canadian tiger swallowtail butterfly	3766
+Cyprus	Evening	Bird, secretary	8330
+China	Afternoon	Falcon, prairie	6444
+Sweden	Morning	Stork, black-necked	8867
+Colombia	Night	European spoonbill	5496
+Nigeria	Afternoon	Starling, greater blue-eared	1596
+Indonesia	Afternoon	Eastern diamondback rattlesnake	9410
+China	Evening	Brown lemur	1752
+Germany	Night	Hummingbird (unidentified)	185
+Tajikistan	Night	Dunnart, fat-tailed	6076
+Brazil	Morning	Crested screamer	6786
+Poland	Evening	European wild cat	2843
+Bolivia	Night	Cat, miner's	5595
+Malta	Afternoon	Bird, secretary	1479
+Portugal	Evening	Caracara, yellow-headed	2228
+China	Morning	Turtle, eastern box	1955
+Belarus	Night	Marmot, yellow-bellied	4740
+Peru	Night	Malagasy ground boa	9631
+Egypt	Morning	Boar, wild	9229
+Brazil	Morning	Crimson-breasted shrike	4281
+Croatia	Evening	Black-winged stilt	2758
+Norway	Evening	Eagle, long-crested hawk	404
+Canada	Evening	Crested bunting	5772
+Guatemala	Afternoon	Cat, ringtail	9366
+Czech Republic	Evening	Horned rattlesnake	9874
+Colombia	Evening	Possum, western pygmy	9264
+Serbia	Night	Klipspringer	861
+Russia	Afternoon	Chuckwalla	9519
+China	Evening	Fox, asian red	3468
+China	Morning	Fox, pampa gray	5804
+Palestinian Territory	Morning	Cape clawless otter	5366
+China	Evening	Little blue penguin	2140
+South Africa	Afternoon	Kongoni	5118
+Canada	Evening	Western lowland gorilla	2559
+Argentina	Morning	Ornate rock dragon	5686
+Indonesia	Afternoon	Otter, african clawless	977
+Ecuador	Evening	Blue fox	7878
+Poland	Morning	Wallaby, whip-tailed	5544
+Serbia	Night	Booby, blue-footed	2697
+Norway	Afternoon	Marten, american	4501
+Brazil	Morning	Puku	6388
+Argentina	Afternoon	Tern, white-winged black	808
+Indonesia	Morning	Rattlesnake, horned	7945
+China	Night	Bird, pied butcher	8713
+China	Afternoon	Dusky gull	221
+China	Night	Eagle owl (unidentified)	867
+China	Night	Laughing kookaburra	869
+Russia	Evening	Egyptian viper	2673
+Poland	Afternoon	Deer, mule	1511
+Poland	Morning	House sparrow	9325
+Indonesia	Night	Hornbill, red-billed	3386
+Thailand	Night	Asian foreset tortoise	7784
+Portugal	Morning	Platypus	6789
+Bangladesh	Afternoon	Cardinal, red-capped	5172
+China	Night	Eurasian hoopoe	2759
+Cyprus	Evening	Porcupine, tree	7036
+Jamaica	Afternoon	King cormorant	5058
+Mongolia	Evening	Monkey, bleeding heart	6442
+Serbia	Evening	Ass, asiatic wild	5892
+Indonesia	Evening	Black-winged stilt	4653
+China	Night	Polar bear	6573
+Czech Republic	Morning	Sarus crane	5380
+Russia	Afternoon	Dolphin, striped	7021
+Yemen	Afternoon	White-nosed coatimundi	9906
+Vietnam	Evening	Blue waxbill	7870
+China	Night	Prehensile-tailed porcupine	868
+Spain	Evening	Cat, toddy	8491
+Russia	Morning	Eurasian red squirrel	354
+Indonesia	Night	Raccoon dog	6200
+Colombia	Night	Cereopsis goose	3989
+Malaysia	Night	Possum, pygmy	2447
+Czech Republic	Night	Dabchick	5569
+Afghanistan	Morning	Dolphin, common	668
+Peru	Night	Genet, common	2906
+Sweden	Morning	Lourie, grey	9255
+Bhutan	Morning	Hyena, striped	8304
+Saudi Arabia	Evening	Cormorant, neotropic	8438
+Indonesia	Morning	Crested screamer	6032
+Czech Republic	Night	Wild boar	2471
+Indonesia	Night	Sage grouse	6129
+Ireland	Evening	Woodchuck	6082
+Sweden	Night	Whale, long-finned pilot	7668
+Sweden	Evening	Jabiru stork	6437
+Philippines	Night	Bird, black-throated butcher	3476
+Djibouti	Evening	Siskin, pine	2596
+Argentina	Night	Red howler monkey	6401
+Germany	Night	Spotted-tailed quoll	2536
+Indonesia	Evening	Turtle (unidentified)	910
+Indonesia	Night	Finch, common melba	7794
+Ethiopia	Morning	Sloth, hoffman's	9361
+China	Morning	Weeper capuchin	3914
+Japan	Night	Nighthawk, common	9242
+Brazil	Night	Duck, white-faced whistling	1808
+Spain	Morning	Godwit, hudsonian	3276
+China	Evening	Hottentot teal	5924
+China	Evening	Eastern boa constrictor	9680
+Indonesia	Afternoon	Flightless cormorant	5623
+Indonesia	Afternoon	Macaque, pig-tailed	2509
+Greece	Afternoon	Long-tailed skua	9274
+Slovenia	Morning	Indian mynah	1430
+Kenya	Morning	Antelope ground squirrel	8753
+Indonesia	Afternoon	Pademelon, red-legged	7310
+Belize	Night	Emu	9763
+Macedonia	Morning	Two-toed tree sloth	7363
+United Kingdom	Night	Cereopsis goose	6589
+United Kingdom	Night	Gelada baboon	1455
+United States	Afternoon	Duck, white-faced whistling	1802
+Indonesia	Morning	Margay	8560
+China	Afternoon	Weaver, red-billed buffalo	1105
+Venezuela	Night	Javanese cormorant	1241
+Japan	Morning	Groundhog	7847
+Indonesia	Afternoon	Darter, african	9777
+Moldova	Night	Spoonbill, european	682
+China	Evening	Sunbird, lesser double-collared	7074
+Haiti	Evening	Laughing dove	1403
+Brazil	Afternoon	Lion, southern sea	4975
+Ukraine	Night	American racer	8457
+Russia	Night	Hyena, brown	2235
+China	Morning	Northern fur seal	2654
+Indonesia	Afternoon	Swan, trumpeter	7507
+Philippines	Morning	Swallow (unidentified)	1640
+Czech Republic	Evening	Asian lion	887
+Russia	Afternoon	Lorikeet, scaly-breasted	2600
+Indonesia	Afternoon	Baboon, savanna	2061
+China	Morning	Coke's hartebeest	6666
+Sweden	Night	Colobus, white-mantled	8400
+China	Morning	Flamingo, chilean	5526
+Indonesia	Afternoon	Plover, three-banded	6755
+Russia	Night	Western palm tanager (unidentified)	9312
+Portugal	Morning	Sugar glider	3769
+United States	Night	Elk, Wapiti	4171
+Syria	Evening	Springbuck	2623
+Nepal	Night	Southern white-crowned shrike	10000
+Russia	Evening	Eagle, bateleur	4918
+United States	Night	Grizzly bear	4171
+China	Morning	Urial	5027
+Greece	Morning	Cormorant, neotropic	9742
+France	Afternoon	Camel, dromedary	8377
+Poland	Evening	Lapwing, southern	5138
+Japan	Morning	Coatimundi, ring-tailed	1598
+Poland	Night	Crane, brolga	5660
+Indonesia	Morning	Colobus, magistrate black	7219
+Russia	Morning	Bleeding heart monkey	8004
+Nigeria	Morning	Lark, horned	3037
+Bolivia	Afternoon	Goose, andean	2327
+South Africa	Evening	Little heron	1336
+France	Morning	Lorikeet, scaly-breasted	5875
+Indonesia	Morning	Brocket, brown	1620
+China	Morning	Whale, long-finned pilot	7396
+Sweden	Evening	North American red fox	4780
+China	Night	Crane, wattled	5999
+China	Afternoon	Antelope, roan	7389
+Portugal	Afternoon	Seal, harbor	9735
+United States	Evening	Salmon, sockeye	6904
+Armenia	Evening	Capuchin, brown	788
+Thailand	Morning	Potoroo	6116
+Portugal	Morning	Red-billed tropic bird	3766
+Canada	Morning	Pheasant, common	4070
+Russia	Night	Possum, golden brush-tailed	1363
+Mexico	Night	Coot, red-knobbed	5000
+Argentina	Night	Pademelon, red-legged	8299
+Honduras	Afternoon	Waxbill, violet-eared	9844
+Poland	Night	Paca	6902
+Pakistan	Afternoon	American bison	5099
+Indonesia	Evening	Cape clawless otter	1988
+Finland	Evening	Paradoxure	4211
+Indonesia	Morning	Porcupine, north american	5743
+Canada	Afternoon	Jaguarundi	9371
+Brazil	Morning	Crab-eating fox	716
+Philippines	Evening	Cockatoo, sulfur-crested	1430
+China	Night	Bald eagle	1653
+China	Evening	Langur, common	9887
+Portugal	Evening	Phascogale, red-tailed	9706
+Finland	Evening	Siskin, pine	6998
+Tuvalu	Evening	Pine snake (unidentified)	1156
+Russia	Morning	Malachite kingfisher	3000
+China	Afternoon	Great skua	3341
+Iran	Night	Lion, african	3090
+Spain	Afternoon	Dolphin, common	593
+Indonesia	Morning	Brown capuchin	6100
+Canada	Evening	Shelduck, common	6811
+Colombia	Afternoon	Black-backed magpie	5446
+New Zealand	Evening	Black-capped chickadee	9636
+Indonesia	Night	Sacred ibis	9818
+Indonesia	Night	Arctic hare	4159
+Philippines	Morning	Coqui francolin	1334
+Philippines	Morning	Northern fur seal	7190
+Brazil	Night	Black spider monkey	2399
+Gambia	Afternoon	Four-striped grass mouse	9867
+Nicaragua	Morning	Buffalo, american	1515
+Indonesia	Evening	Oriental white-backed vulture	7595
+Honduras	Afternoon	Bontebok	9714
+Sweden	Evening	Crown of thorns starfish	8523
+Cuba	Afternoon	Snake, carpet	448
+Indonesia	Evening	Hawk, galapagos	9377
+Japan	Evening	Adouri (unidentified)	1969
+China	Night	Cat, cape wild	1234
+China	Night	Red-tailed hawk	3148
+Ukraine	Night	Herring gull	8235
+Philippines	Night	Roseate cockatoo	3869
+Peru	Morning	Blue duck	8281
+Czech Republic	Afternoon	Flamingo, chilean	2336
+Indonesia	Night	Barking gecko	2281
+China	Night	Snowy owl	9911
+Japan	Morning	Chestnut weaver	1401
+Indonesia	Afternoon	Fox, asian red	298
+Dominican Republic	Night	Savannah deer	7723
+China	Evening	Cormorant, great	6523
+France	Morning	Parakeet, rose-ringed	9553
+Peru	Morning	Hawk, red-tailed	7629
+Brazil	Morning	Nighthawk, common	5033
+Chad	Evening	Japanese macaque	6578
+Czech Republic	Morning	Worm snake (unidentified)	760
+Indonesia	Afternoon	Gull, kelp	2385
+Indonesia	Morning	Lion, southern sea	6032
+France	Night	Lizard, collared	1829
+France	Morning	Grey lourie	497
+Paraguay	Afternoon	Lapwing, southern	3583
+Indonesia	Evening	Asian openbill	1974
+China	Night	Squirrel, eurasian red	9733
+Kenya	Afternoon	Lizard, collared	8445
+Thailand	Evening	Rhea, greater	1653
+Philippines	Morning	Southern screamer	2940
+China	Night	Peacock, indian	6953
+Indonesia	Morning	Dragon, western bearded	9759
+Vietnam	Morning	Eurasian beaver	168
+China	Morning	White rhinoceros	2046
+Honduras	Night	Zorro, common	4204
+Ukraine	Evening	Lesser double-collared sunbird	291
+Czech Republic	Afternoon	Red-winged hawk (unidentified)	2475
+Poland	Morning	African elephant	6630
+France	Afternoon	Waxbill, blue	3207
+China	Night	Penguin, fairy	5863
+Philippines	Afternoon	Galapagos mockingbird	9055
+Turkmenistan	Night	Cobra, cape	1702
+China	Night	South American puma	3191
+France	Afternoon	Phascogale, brush-tailed	8134
+Czech Republic	Afternoon	Colobus, magistrate black	9914
+Brazil	Afternoon	Python (unidentified)	1951
+Sweden	Afternoon	Rattlesnake, horned	2883
+France	Afternoon	Southern ground hornbill	6935
+Canada	Afternoon	Dove, ring	1650
+China	Afternoon	Ocelot	7022
+Russia	Afternoon	Brown brocket	6670
