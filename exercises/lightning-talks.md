@@ -23,7 +23,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 03.12.2020 | Kowatschek Samuel | What is Markdown, why is it useful, and what cool things can you do with it?|
 | 10.12.2020 | Maureder Christoph | Ready Player One by Ernest Cline |
 | 17.12.2020 |Semaschko Stanislav | What is Roslyn?|
-| 07.01.2021 |                  |       |
+| 07.01.2021 |Tobias Kern|Rust & how it makes safe systems programming possible|
 | 14.01.2021 | **Written Exam** | ---   |
 | 21.01.2021 |                  |       |
 | 28.01.2021 | **Reserved**     | ---   |
