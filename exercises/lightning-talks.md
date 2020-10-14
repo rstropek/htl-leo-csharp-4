@@ -42,7 +42,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 01.04.2021 |                  |       |
 | 08.04.2021 | **Written Exam** | ---   |
 | 15.04.2021 |                  |       |
-| 22.04.2021 |                  |       |
+| 22.04.2021 |Robin Fuchshofer  |What are records in C# and why are they useful?       |
 | 29.04.2021 |Michael Enkner    |What is Azure and why is it important for mobile developers?|
 | 06.05.2021 | Leon Nepelius    | What is WinUI and why is it useful for C# developers?|
 | 20.05.2021 |                  |       |
