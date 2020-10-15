@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CharExercise": {
+      "commandName": "Project",
+      "commandLineArgs": "animal attacks 50 < data.txt"
+    }
+  }
+}
