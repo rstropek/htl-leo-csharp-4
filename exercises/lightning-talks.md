@@ -34,7 +34,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 
 | Date       | Student          | Topic |
 | ---------- | ---------------- | ----- |
-| 25.02.2021 |                  |       |
+| 25.02.2021 |Manuel Rausch-Schott|What is Kotlin and why is it important for mobile developers?|
 | 04.03.2021 |Florian Veith     |Operator overloading|
 | 11.03.2021 |Philip Kronsteiner|Cool IoT devices every developer should know about|
 | 18.03.2021 |                  |       |
