@@ -1,0 +1,51 @@
+book_iban	book_title	genre	year	revenue
+118613964-1	Pride of the Yankees, The	Drama	2019	8540
+003229466-2	Cyborg 2: Glass Shadow	Action|Sci-Fi|Thriller	2019	3468
+426912076-2	Dead Pit, The	Horror	2019	1724
+422456633-8	Criminal Law	Thriller	2019	3228
+649198770-1	Ida	Drama	2019	8952
+957856752-9	Capital (Le capital)	Drama	2019	8590
+102461683-5	Hollywood Ending	Comedy|Drama	2019	7803
+151928209-5	April's Shower	Comedy|Romance	2019	7531
+696439298-X	Dare	Drama	2019	5699
+283785670-3	Deep in the Woods (Promenons-nous dans les bois)	Horror|Thriller	2019	8193
+448144857-1	Clock, The	Adventure|Drama|Romance	2019	9490
+958493713-8	Perils of the Sentimental Swordsman	Action|Adventure|Fantasy	2019	3271
+261210941-2	Universal Soldier: Regeneration	Action|Drama|Sci-Fi|Thriller	2019	5716
+694791548-1	Storm Warriors, The (Fung wan II)	Action|Adventure|Fantasy	2019	2278
+533203443-1	Rat Race	Comedy	2019	2959
+006577556-2	P.U.N.K.S	Children|Comedy|Sci-Fi	2019	2463
+325247624-X	Glen or Glenda	Drama	2019	2929
+662788126-8	Kolmistaan	Drama|Romance	2019	8809
+744343146-5	Last Orders	Drama	2019	2382
+542513762-1	Jill the Ripper (Jill Rips)	Drama|Thriller	2019	3486
+514326632-7	Divine Secrets of the Ya-Ya Sisterhood	Comedy|Drama	2019	3943
+966139888-7	Erkan & Stefan 3	Comedy	2019	6309
+612307086-X	Chances Are	Comedy|Romance	2019	2473
+171152819-6	Brainscan	Comedy|Horror|Sci-Fi|Thriller	2019	2387
+316437013-X	John Doe: Vigilante	Crime|Thriller	2019	4158
+003874048-6	Internes Can't Take Money	Crime|Drama|Romance	2019	8442
+797599742-0	Legacy, The	Horror	2019	8966
+933618142-4	I'll Do Anything	Comedy|Drama	2019	4815
+057049622-5	Mille bolle blu	Comedy	2019	4627
+949366745-6	Blackout (Murder by Proxy)	Crime|Drama|Thriller	2019	4796
+635609163-0	Harlan: In the Shadow of Jew Suess (Harlan - Im Schatten von Jud Süss)	Documentary	2019	2261
+554546304-6	Ace of Aces (a.k.a. Super Ace, The) (As des as, L')	Adventure|Comedy	2019	5282
+745144775-8	Second Honeymoon	Comedy|Romance	2019	9608
+908292251-7	Somewhere Under the Broad Sky	(no genres listed)	2019	5947
+405004675-X	Daddy (Tato)	Drama	2019	5757
+165252811-3	Ninja Scroll (Jûbei ninpûchô)	Action|Adventure|Animation|Fantasy	2019	5504
+056705815-8	Moment of Innocence, A (Nun va Goldoon)	Drama	2019	7991
+686196421-2	Polyester	Comedy	2019	9121
+714858433-7	Du côté de la côte	Documentary	2019	3729
+986735093-6	Daughter of Dr. Jeckyll	Horror	2019	6618
+067148465-6	Ordinary Miracles	Drama	2019	3529
+188712771-2	Yossi & Jagger	Drama|Romance	2019	4795
+637037925-5	Classe américaine, La (a.k.a. Le grand détournement)	Comedy	2019	2966
+230265254-1	Hadersfild (Huddersfield)	Drama	2019	6932
+526732303-9	Myth, The (San wa)	Action|Adventure|Comedy|Fantasy	2019	7162
+620977674-4	North and South, Book I	Drama|Romance|War	2019	2863
+950166360-4	The Gallant Hours	(no genres listed)	2019	8178
+255692434-9	Youngblood	Action|Drama	2019	8309
+203024420-1	Canterbury Tales, The (I racconti di Canterbury)	Comedy|Drama	2019	3822
+053323192-2	Aces and Eights	Western	2019	7066
