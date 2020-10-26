@@ -25,7 +25,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 17.12.2020 |Semaschko Stanislav | What is Roslyn?|
 | 07.01.2021 |Tobias Kern|Rust & how it makes safe systems programming possible|
 | 14.01.2021 | **Written Exam** | ---   |
-| 21.01.2021 |                  |       |
+| 21.01.2021 |Hofmann Daniel|Starlink - Bleeding edge technology with consequences|
 | 28.01.2021 | **Reserved**     | ---   |
 | 04.02.2021 | **Reserved**     | ---   |
 | 11.02.2021 | **Reserved**     | ---   |
@@ -34,18 +34,18 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 
 | Date       | Student          | Topic |
 | ---------- | ---------------- | ----- |
-| 25.02.2021 |                  |       |
-| 04.03.2021 |                  |       |
+| 25.02.2021 |Manuel Rausch-Schott|What is Kotlin and why is it important for mobile developers?|
+| 04.03.2021 |Florian Veith     |Operator overloading|
 | 11.03.2021 |Philip Kronsteiner|Cool IoT devices every developer should know about|
-| 18.03.2021 |                  |       |
+| 18.03.2021 |Resch Oliver      |What is Firebase and why is it important for mobile developers? |
 | 25.03.2021 |                  |       |
-| 01.04.2021 |                  |       |
+| 01.04.2021 | Maximilian Pineker | Cool things you can do with Tuples |
 | 08.04.2021 | **Written Exam** | ---   |
-| 15.04.2021 |                  |       |
+| 15.04.2021 |Stefan Anzinger   |Cool things you can do with Postman   |
 | 22.04.2021 |Robin Fuchshofer  |What are records in C# and why are they useful?       |
 | 29.04.2021 |Michael Enkner    |What is Azure and why is it important for mobile developers?|
 | 06.05.2021 | Leon Nepelius    | What is WinUI and why is it useful for C# developers?|
-| 20.05.2021 |                  |       |
+| 20.05.2021 |Handstanger Alexander|What is Xamarin and what can do you with it?|
 | 27.05.2021 |                  |       |
 | 10.06.2021 | **Written Exam** | ---   |
 | 17.06.2021 | **Reserved**     | ---   |

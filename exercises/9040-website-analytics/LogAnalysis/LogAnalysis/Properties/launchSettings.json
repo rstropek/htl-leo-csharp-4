@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LogAnalysis": {
+      "commandName": "Project",
+      "commandLineArgs": "photographers"
+    }
+  }
+}
