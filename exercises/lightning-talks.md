@@ -46,7 +46,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 29.04.2021 |Michael Enkner    |What is Azure and why is it important for mobile developers?|
 | 06.05.2021 | Leon Nepelius    | What is WinUI and why is it useful for C# developers?|
 | 20.05.2021 |Handstanger Alexander|What is Xamarin and what can do you with it?|
-| 27.05.2021 |                  |       |
+| 27.05.2021 | Raci Dionis | What is moq and why is it useful for automated testing? |
 | 10.06.2021 | **Written Exam** | ---   |
 | 17.06.2021 | **Reserved**     | ---   |
 | 24.06.2021 | **Reserved**     | ---   |
