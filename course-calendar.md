@@ -16,7 +16,7 @@
 | 23.11.2020 | Linq and EF, SQL generation, expr. trees   |
 | 03.12.2020 | EF Data Modelling, migrations              |
 | 10.12.2020 | EF and ASP.NET                             |
-| 17.12.2020 | EF Repository and Unit or Work Pattern     |
+| 17.12.2020 | EF Repository and Unit of Work Pattern     |
 | 07.01.2021 | EF Recap                                   |
 | 14.01.2021 | **Written Exam**                           |
 | 21.01.2021 | JSON in C#                                 |
