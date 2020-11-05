@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SalesStatistics": {
+      "commandName": "Project",
+      "commandLineArgs": "customer"
+    }
+  }
+}

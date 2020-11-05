@@ -1,0 +1,202 @@
+ORDER	order_id	customer	deliver_to_country
+DETAIL	product	amount	unit_price_eur	price_eur
+ORDER	1	Gorczany, Olson and Haley	Poland
+DETAIL	Oil - Macadamia	6	4	24
+DETAIL	Canadian Emmenthal	10	9	90
+DETAIL	Appetizer - Mini Egg Roll, Shrimp	7	19	133
+DETAIL	Whmis Spray Bottle Graduated	9	18	162
+DETAIL	Tuna - Fresh	6	14	84
+DETAIL	Squeeze Bottle	1	3	3
+DETAIL	Chocolate Bar - Oh Henry	9	16	144
+DETAIL	Tomatoes - Vine Ripe, Red	8	8	64
+DETAIL	Foie Gras	6	10	60
+ORDER	2	Wiegand, Jenkins and Medhurst	Czech Republic
+DETAIL	Soup Campbells Mexicali Tortilla	4	2	8
+DETAIL	Cassis	2	9	18
+DETAIL	Cheese - Bocconcini	8	16	128
+DETAIL	Bread - Petit Baguette	5	12	60
+DETAIL	Tomato - Plum With Basil	9	5	45
+DETAIL	Pineapple - Canned, Rings	2	4	8
+DETAIL	Coconut - Shredded, Sweet	4	13	52
+DETAIL	Chinese Foods - Plain Fried Rice	8	9	72
+DETAIL	Kohlrabi	1	11	11
+ORDER	3	Davis, White and Halvorson	Sweden
+DETAIL	Coffee - Decaffeinato Coffee	2	7	14
+DETAIL	Table Cloth 54x54 White	1	2	2
+DETAIL	Juice - Tomato, 48 Oz	4	7	28
+DETAIL	Beef - Eye Of Round	4	16	64
+DETAIL	Grand Marnier	4	12	48
+DETAIL	Pasta - Ravioli	7	19	133
+DETAIL	Devonshire Cream	4	11	44
+DETAIL	Cheese - Wine	10	2	20
+DETAIL	Wine - Beringer Founders Estate	3	11	33
+ORDER	4	Gorczany, Olson and Haley	Poland
+DETAIL	Ham - Cooked	5	5	25
+DETAIL	Bread Base - Goodhearth	2	20	40
+DETAIL	Tea - Mint	2	17	34
+DETAIL	Chick Peas - Dried	10	11	110
+DETAIL	Bag - Clear 7 Lb	5	13	65
+DETAIL	Buffalo - Short Rib Fresh	8	2	16
+DETAIL	Tabasco Sauce, 2 Oz	5	13	65
+DETAIL	Potatoes - Idaho 80 Count	3	18	54
+DETAIL	Initation Crab Meat	2	6	12
+ORDER	5	Larson-Casper	Poland
+DETAIL	Peas - Pigeon, Dry	9	14	126
+DETAIL	Pork - Hock And Feet Attached	1	3	3
+DETAIL	Cheese - Mozzarella, Shredded	3	19	57
+DETAIL	Quail Eggs - Canned	2	5	10
+DETAIL	Pasta - Fett Alfredo, Single Serve	4	5	20
+DETAIL	Jagermeister	9	19	171
+DETAIL	Crab - Blue, Frozen	7	4	28
+DETAIL	Wine - Fontanafredda Barolo	9	6	54
+DETAIL	Kolrabi	4	19	76
+ORDER	6	Yundt, Reichert and Ondricka	Switzerland
+DETAIL	Sobe - Lizard Fuel	5	1	5
+DETAIL	Lamb - Whole Head Off,nz	5	5	25
+DETAIL	Chicken - Base, Ultimate	3	11	33
+DETAIL	Kiwano	3	9	27
+DETAIL	Ecolab - Mikroklene 4/4 L	9	20	180
+DETAIL	Garbage Bags - Black	2	20	40
+DETAIL	Pasta - Fettuccine, Dry	2	10	20
+DETAIL	Island Oasis - Raspberry	2	2	4
+DETAIL	Iced Tea - Lemon, 340ml	3	4	12
+ORDER	7	Larson-Casper	Poland
+DETAIL	Muffin Mix - Blueberry	6	6	36
+DETAIL	Wine - Chardonnay Mondavi	8	10	80
+DETAIL	Fuji Apples	5	6	30
+DETAIL	Coconut - Creamed, Pure	6	9	54
+DETAIL	Horseradish Root	9	10	90
+DETAIL	Vaccum Bag 10x13	7	19	133
+DETAIL	Yogurt - Plain	2	1	2
+DETAIL	Potatoes - Peeled	4	4	16
+DETAIL	Beans - Navy, Dry	7	9	63
+ORDER	8	Jast and Sons	Poland
+DETAIL	Pork - Butt, Boneless	6	14	84
+DETAIL	Cake - Mini Potato Pancake	9	9	81
+DETAIL	Radish - Pickled	10	15	150
+DETAIL	Chestnuts - Whole,canned	3	1	3
+DETAIL	Sauce Bbq Smokey	5	1	5
+DETAIL	Wine - Chateauneuf Du Pape	1	12	12
+DETAIL	Plums - Red	6	7	42
+DETAIL	Table Cloth - 53x69 Colour	9	5	45
+DETAIL	Basil - Seedlings Cookstown	1	9	9
+ORDER	9	Prohaska-Strosin	Sweden
+DETAIL	Flavouring - Raspberry	8	20	160
+DETAIL	Pate - Cognac	1	14	14
+DETAIL	Coke - Classic, 355 Ml	8	18	144
+DETAIL	Initation Crab Meat	3	13	39
+DETAIL	Foil Wrap	3	6	18
+DETAIL	Parsnip	6	11	66
+DETAIL	Lamb Leg - Bone - In Nz	8	2	16
+DETAIL	Lid - 16 Oz And 32 Oz	5	2	10
+DETAIL	Muffin - Zero Transfat	5	4	20
+ORDER	10	Yundt, Reichert and Ondricka	Switzerland
+DETAIL	V8 - Tropical Blend	9	20	180
+DETAIL	Cheese - Parmesan Cubes	5	14	70
+DETAIL	Herb Du Provence - Primerba	10	16	160
+DETAIL	Dill Weed - Fresh	9	8	72
+DETAIL	Lettuce - Radicchio	4	17	68
+DETAIL	Pear - Prickly	4	9	36
+DETAIL	Puff Pastry - Sheets	4	9	36
+DETAIL	Flour - Bran, Red	7	12	84
+DETAIL	Muffin Mix - Lemon Cranberry	4	4	16
+ORDER	11	Buckridge, Larkin and Stracke	Poland
+DETAIL	Roe - Lump Fish, Black	3	17	51
+DETAIL	Wine - Red Oakridge Merlot	9	10	90
+DETAIL	Cheese - Parmesan Grated	5	11	55
+DETAIL	Ecolab - Solid Fusion	10	10	100
+DETAIL	Sauce Tomato Pouch	9	11	99
+DETAIL	Ecolab Silver Fusion	6	14	84
+DETAIL	Knife Plastic - White	9	4	36
+DETAIL	Green Scrubbie Pad H.duty	7	12	84
+DETAIL	Beer - Guiness	3	12	36
+ORDER	12	Lehner-Ziemann	Poland
+DETAIL	Wine - Fume Blanc Fetzer	8	13	104
+DETAIL	Peppercorns - Green	8	3	24
+DETAIL	Salmon - Atlantic, Fresh, Whole	4	2	8
+DETAIL	Wine - Jackson Triggs Okonagan	5	16	80
+DETAIL	Wine - Chateau Timberlay	9	8	72
+DETAIL	Olives - Black, Pitted	5	18	90
+DETAIL	Strawberries	9	9	81
+DETAIL	Juice - Grapefruit, 341 Ml	7	20	140
+DETAIL	Eggplant - Asian	1	3	3
+ORDER	13	Graham, Kub and Bauch	Netherlands
+DETAIL	Wine - White, Antinore Orvieto	8	5	40
+DETAIL	Spinach - Packaged	8	16	128
+DETAIL	Cheese - Bakers Cream Cheese	8	12	96
+DETAIL	Spice - Greek 1 Step	7	16	112
+DETAIL	Soup Campbells - Tomato Bisque	2	12	24
+DETAIL	Foie Gras	6	2	12
+DETAIL	Sausage - Liver	1	19	19
+DETAIL	Puff Pastry - Sheets	10	12	120
+DETAIL	Vinegar - White Wine	3	2	6
+ORDER	14	Klocko-Waters	Poland
+DETAIL	Marsala - Sperone, Fine, D.o.c.	2	14	28
+DETAIL	Chicken - Whole	2	2	4
+DETAIL	Potatoes - Mini Red	8	12	96
+DETAIL	Milkettes - 2%	10	15	150
+DETAIL	Sauce - Black Current, Dry Mix	3	4	12
+DETAIL	Pate Pans Yellow	8	6	48
+DETAIL	Flower - Leather Leaf Fern	8	6	48
+DETAIL	Sponge Cake Mix - Vanilla	8	10	80
+DETAIL	Beans - Black Bean, Canned	6	7	42
+ORDER	15	Boehm, Gleichner and Reilly	Poland
+DETAIL	Fib N9 - Prague Powder	1	6	6
+DETAIL	Beans - Black Bean, Canned	1	10	10
+DETAIL	White Fish - Filets	3	10	30
+DETAIL	Wine - Marlbourough Sauv Blanc	7	6	42
+DETAIL	Water - Aquafina Vitamin	6	15	90
+DETAIL	Butter - Salted	10	14	140
+DETAIL	Towel - Roll White	5	10	50
+DETAIL	Boogies	2	3	6
+DETAIL	Tobasco Sauce	9	16	144
+ORDER	16	Shanahan LLC	Sweden
+DETAIL	Wheat - Soft Kernal Of Wheat	7	12	84
+DETAIL	Tahini Paste	10	6	60
+DETAIL	Bread - Roll, Soft White Round	10	13	130
+DETAIL	Wine - White, Mosel Gold	5	14	70
+DETAIL	Bread - Italian Sesame Poly	9	7	63
+DETAIL	Rice Pilaf, Dry,package	8	16	128
+DETAIL	Yogurt - Banana, 175 Gr	7	14	98
+DETAIL	Ice Cream Bar - Hagen Daz	9	8	72
+DETAIL	Lamb - Whole Head Off,nz	1	17	17
+ORDER	17	Breitenberg-Schmeler	Sweden
+DETAIL	Munchies Honey Sweet Trail Mix	9	20	180
+DETAIL	Chickensplit Half	9	16	144
+DETAIL	Trueblue - Blueberry 12x473ml	4	4	16
+DETAIL	Apples - Sliced / Wedge	8	7	56
+DETAIL	Wine - Cotes Du Rhone	2	8	16
+DETAIL	Appetizer - Southwestern	6	13	78
+DETAIL	Horseradish - Prepared	8	9	72
+DETAIL	Croissants Thaw And Serve	1	4	4
+DETAIL	Wheat - Soft Kernal Of Wheat	7	18	126
+ORDER	18	Ledner and Sons	Czech Republic
+DETAIL	Crackers - Graham	6	14	84
+DETAIL	Hand Towel	6	2	12
+DETAIL	Tomatoes Tear Drop Yellow	6	17	102
+DETAIL	Jolt Cola - Electric Blue	5	14	70
+DETAIL	Cheese - Mix	4	9	36
+DETAIL	Mangostein	5	2	10
+DETAIL	Yogurt - Cherry, 175 Gr	6	14	84
+DETAIL	Container - Foam Dixie 12 Oz	5	18	90
+DETAIL	Bread - Hot Dog Buns	8	18	144
+ORDER	19	Moore Group	Sweden
+DETAIL	Wine - Guy Sage Touraine	1	4	4
+DETAIL	Myers Planters Punch	3	8	24
+DETAIL	Marjoram - Fresh	8	15	120
+DETAIL	Irish Cream - Butterscotch	6	12	72
+DETAIL	Oil - Olive Bertolli	3	3	9
+DETAIL	Chick Peas - Canned	3	10	30
+DETAIL	Pork - Ground	3	17	51
+DETAIL	Longos - Lasagna Veg	6	13	78
+DETAIL	Spice - Pepper Portions	10	10	100
+ORDER	20	Dicki LLC	Poland
+DETAIL	Chutney Sauce	3	20	60
+DETAIL	Wine - Maipo Valle Cabernet	2	6	12
+DETAIL	Plastic Arrow Stir Stick	1	19	19
+DETAIL	Cheese - Gouda	1	8	8
+DETAIL	Lobster - Tail 6 Oz	1	11	11
+DETAIL	Duck - Breast	7	1	7
+DETAIL	Flour - Whole Wheat	9	9	81
+DETAIL	Gatorade - Lemon Lime	8	7	56
+DETAIL	Water, Tap	1	18	18
