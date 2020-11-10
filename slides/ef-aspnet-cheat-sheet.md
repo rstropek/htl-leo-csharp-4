@@ -10,6 +10,7 @@
 * `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
   * [Choose your DB provider...](https://docs.microsoft.com/en-us/ef/core/providers/)
 * `dotnet add package Microsoft.EntityFrameworkCore.Design`
+* If you want to print generated SQL statements: `dotnet add package Microsoft.Extensions.Logging.Console`
 
 ## Create *Model*
 
@@ -120,6 +121,27 @@ public void ConfigureServices(IServiceCollection services)
 {
     services.AddDbContext<BloggingContext>(options => options.UseSqlServer(
         configuration["ConnectionStrings:DefaultConnection"]));
+}
+```
+
+* Add DbContext factory in case of console apps:
+
+```cs
+class BloggingContextFactory : IDesignTimeDbContextFactory<BloggingContext>
+{
+    public BloggingContext CreateDbContext(string[]? args = null)
+    {
+        var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+
+        var optionsBuilder = new DbContextOptionsBuilder<BloggingContext>();
+        optionsBuilder
+            // Uncomment the following line if you want to print generated
+            // SQL statements on the console.
+            // .UseLoggerFactory(LoggerFactory.Create(builder => builder.AddConsole()))
+            .UseSqlServer(configuration["ConnectionStrings:DefaultConnection"]);
+
+        return new BloggingContext(optionsBuilder.Options);
+    }
 }
 ```
 
