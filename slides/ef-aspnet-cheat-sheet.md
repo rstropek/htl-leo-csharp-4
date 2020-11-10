@@ -11,6 +11,8 @@
   * [Choose your DB provider...](https://docs.microsoft.com/en-us/ef/core/providers/)
 * `dotnet add package Microsoft.EntityFrameworkCore.Design`
 * If you want to print generated SQL statements: `dotnet add package Microsoft.Extensions.Logging.Console`
+* To read *appsettings.json*, add: `dotnet add package Microsoft.Extensions.Configuration.Json`
+  * Note: Not necessary in ASP.NET
 
 ## Create *Model*
 
