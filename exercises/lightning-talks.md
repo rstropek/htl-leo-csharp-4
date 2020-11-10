@@ -17,7 +17,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 15.10.2020 | Steininger Markus | LINQ |
 | 22.10.2020 |                  |       |
 | 05.11.2020 | **Written Exam** | ---   |
-| 12.11.2020 |Jan Fischlmayr|Serverless Computing|
+| 12.11.2020 |                  |       |
 | 19.11.2020 | Kraus David | Reverse Engineering and Memory Exploitation |
 | 26.11.2020 |Khnifes Kyrillus|SonarQube/SonarLint|
 | 03.12.2020 | Kowatschek Samuel | What is Markdown, why is it useful, and what cool things can you do with it?|
@@ -38,7 +38,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 04.03.2021 |Florian Veith     |Operator overloading|
 | 11.03.2021 |Philip Kronsteiner|Cool IoT devices every developer should know about|
 | 18.03.2021 |Resch Oliver      |What is Firebase and why is it important for mobile developers? |
-| 25.03.2021 |                  |       |
+| 25.03.2021 |Jan Fischlmayr|Serverless Computing|
 | 01.04.2021 | Maximilian Pineker | Cool things you can do with Tuples |
 | 08.04.2021 | **Written Exam** | ---   |
 | 15.04.2021 |Stefan Anzinger   |Cool things you can do with Postman   |
