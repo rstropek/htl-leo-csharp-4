@@ -36,7 +36,12 @@ O/RM in .NET
 ## Building a Model
 
 ```cs
-<!--#include file="exercises/0010-intro/Person.cs" -->
+public class Blog
+{
+    public int BlogId { get; set; }
+    [Required]
+    public string Url { get; set; }
+}
 ```
 
 * Read more about [creating a Model](https://docs.microsoft.com/en-us/ef/core/modeling/)
@@ -46,7 +51,14 @@ O/RM in .NET
 ## Setting up the Context
 
 ```cs
-<!--#include file="exercises/0010-intro/Context.cs" -->
+public class BloggingContext : DbContext
+{
+    public BloggingContext(DbContextOptions<BloggingContext> options)
+        : base(options)
+    { }
+
+    public DbSet<Blog> Blogs { get; set; }
+}
 ```
 
 ---
@@ -54,7 +66,22 @@ O/RM in .NET
 ## Writing Data
 
 ```cs
-<!--#include file="exercises/0010-intro/WriteToDB.cs" -->
+using System.Threading.Tasks;
+
+namespace EFIntro
+{
+    partial class Program
+    {
+        async static Task WriteToDB(AddressBookContext db) 
+        {
+            db.Persons.AddRange(new [] {
+                new Person() { FirstName = "Tom", LastName = "Turbo" },
+                new Person() { FirstName = "Foo", LastName = "Bar" }
+            });
+            await db.SaveChangesAsync();
+        }
+    }
+}
 ```
 
 * Read more about [writing data](https://docs.microsoft.com/en-us/ef/core/saving/)
@@ -64,7 +91,26 @@ O/RM in .NET
 ## Writing Data to Related Sets
 
 ```cs
-<!--#include file="exercises/0030-joins/AddingWithJoin.cs" -->
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using System;
+using System.Threading.Tasks;
+
+namespace Joins
+{
+    partial class Program
+    {
+        static async Task AddWithJoinAsync(OrderContext context)
+        {
+            var order = new Order { Product = "Bike", 
+                Customer = new Customer { Name = "John" } };
+
+            // Note SINGLE call to `Add` and `SaveChangesAsync`
+            context.Orders.Add(order);
+            await context.SaveChangesAsync();
+        }
+    }
+}
 ```
 
 * Note *single* call to `Add` and `SaveChangesAsync`
@@ -74,7 +120,26 @@ O/RM in .NET
 ## Querying Data
 
 ```cs
-<!--#include file="entity-framework/0010-intro/ReadFromDB.cs" -->
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
+using System;
+using System.Linq;
+
+namespace EFIntro
+{
+    partial class Program
+    {
+        async static Task ReadFromDB(AddressBookContext db) 
+        {
+            await foreach(var person in db.Persons
+                .Where(p => p.LastName.StartsWith("B"))
+                .AsAsyncEnumerable())
+            {
+                Console.WriteLine($"{person.LastName}, {person.FirstName}");
+            }
+        }
+    }
+}
 ```
 
 * Read more about [querying data](https://docs.microsoft.com/en-us/ef/core/querying/)
@@ -84,7 +149,24 @@ O/RM in .NET
 ## Querying Data
 
 ```cs
-<!--#include file="entity-framework/0030-joins/QueryWithJoin.cs" -->
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using System;
+using System.Threading.Tasks;
+
+namespace Joins
+{
+    partial class Program
+    {
+        static async Task QueryWithJoinAsync(OrderContext context)
+        {
+            var result = await context.Orders
+                .Include("Customer")
+                .FirstAsync();
+            Console.WriteLine(JsonConvert.SerializeObject(result));
+        }
+    }
+}
 ```
 
 * `Include`: Getting `Order` with related `Customer`
