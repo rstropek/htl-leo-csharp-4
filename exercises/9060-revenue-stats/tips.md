@@ -224,4 +224,4 @@ foreach (var (customer, revenue) in
     .Select(n => (n.Key, n.Sum(p => p.details.Sum(p => p.TotalPrice))))
     .OrderByDescending(o => o.Item2))
 { ... }
-``´
+```
