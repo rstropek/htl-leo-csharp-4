@@ -16,9 +16,9 @@ In this exercise, you have to implement a command-line tool for importing order 
 | Name (string, max. 100 chars)                |
 | CreditLimit (decimal, length 8, precision 2) |
 +----------------------------------------------+
-                       n
-                       |
                        1
+                       |
+                       n
 +----------------------------------------------+
 | Order                                        |
 |----------------------------------------------|
