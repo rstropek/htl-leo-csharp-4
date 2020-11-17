@@ -39,6 +39,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 11.03.2021 |Philip Kronsteiner|Cool IoT devices every developer should know about|
 | 18.03.2021 |Resch Oliver      |What is Firebase and why is it important for mobile developers? |
 | 25.03.2021 |Jan Fischlmayr|Serverless Computing|
+| 25.03.2021 |Daniel Kastenhofer|Jenkins|
 | 01.04.2021 | Maximilian Pineker | Cool things you can do with Tuples |
 | 08.04.2021 | **Written Exam** | ---   |
 | 15.04.2021 |Stefan Anzinger   |Cool things you can do with Postman   |
