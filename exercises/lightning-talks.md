@@ -46,6 +46,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 15.04.2021 |Stefan Anzinger   |Cool things you can do with Postman   | 
 | 15.04.2021 |Fabio Lehner      |Technology in ten years time| 
 | 22.04.2021 |Robin Fuchshofer  |What are records in C# and why are they useful?       |
+| 22.04.2021 |Bastian Haider    |What is Shopify and why could it be useful for Web developers?      |
 | 29.04.2021 |Michael Enkner    |What is Azure and why is it important for mobile developers?|
 | 29.04.2021  | Pirngruber Christian| What is Event Sourcing and why can it be useful?|
 | 06.05.2021 | Leon Nepelius    | What is WinUI and why is it useful for C# developers?|
