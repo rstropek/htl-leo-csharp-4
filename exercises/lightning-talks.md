@@ -42,6 +42,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 25.03.2021 |Jan Fischlmayr|Serverless Computing|
 | 25.03.2021 |Daniel Kastenhofer|Jenkins|
 | 01.04.2021 | Maximilian Pineker | Cool things you can do with Tuples |
+| 01.04.2021 | Patrick Huemer   | Subreddits that every developer should follow |
 | 08.04.2021 | **Written Exam** | ---   |
 | 15.04.2021 |Stefan Anzinger   |Cool things you can do with Postman   | 
 | 15.04.2021 |Fabio Lehner      |Technology in ten years time| 
