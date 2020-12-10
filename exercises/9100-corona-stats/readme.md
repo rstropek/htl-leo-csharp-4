@@ -67,7 +67,7 @@ Notes:
   * Correlate data from *Statistik Austria* with data from *data.gv.at* using the district code (*GKZ* in Covid-19-data and *Kennziffer pol. Bezirk* in data from *Statistik Austria*).
 
 * The API has to return the HTTP status code...
-  * ...[*Created*](https://http.cat/201) (201) if import was successful
+  * ...[*Ok*](https://http.cat/200) (200) if import was successful
   * ...[*Internal Server Error*](https://http.cat/500) (500) in case of an error
 
 ### Master Data
@@ -156,3 +156,8 @@ Notes:
 * Use C#'s `HttpClient` to read CSV files from the internet. Make sure to read [the related documentation page](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests) for using `HttpClient` in ASP.NET Core (the [*Basic usage* pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests#basic-usage) is sufficient for this homework).
 
 * Consider [*ng2-charts*](https://github.com/valor-software/ng2-charts) for charts in Angular.
+
+* Embed your Angular app using one of the following methods:
+  * [Enable CORS](https://docs.microsoft.com/en-us/aspnet/core/security/cors) if you want to run Angular and your Web API on different ports on *localhost*.
+  * [Serve static files in web root](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files) and copy your Angular app's build result into the web root folder.
+  * Include a [Single Page app (SPA)](https://github.com/softawaregmbh/consulting-netcore-microservices-sample/blob/504fab7e4199b16a84129539463f9a1b506c5022/NetCoreMicroserviceSample/NetCoreMicroserviceSample.Api/Startup.cs#L208) proxy in your ASP.NET Core project so you access your Angular app indirectly through the ASP.NET Core app (recommended approach for this homework).
