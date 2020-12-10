@@ -70,7 +70,7 @@ public class Blog
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\dev;Database=AddressBook;Trusted_Connection=True"
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=AddressBook;Trusted_Connection=True"
   }
 }
 ```
