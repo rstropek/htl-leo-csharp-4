@@ -50,6 +50,19 @@ class MyContext : DbContext
 }
 ```
 
+If you want to/need to disable *Cascade Delete*:
+
+```csharp
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    modelBuilder.Entity<OrderHeader>()
+                .HasMany(h => h.OrderDetails)
+                .WithOne(d => d.OrderHeader)
+                .HasForeignKey(d => d.OrderHeaderID)
+                .OnDelete(DeleteBehavior.NoAction);
+}
+```
+
 ```csharp
 // Data Annotations Example:
 
