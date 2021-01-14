@@ -28,7 +28,7 @@ You do not know how because you are not familiar with GitHub yet? [Watch a video
 | 14.01.2021 | **Written Exam** | ---   |
 | 21.01.2021 |Hofmann Daniel|Starlink - Bleeding edge technology with consequences|
 | 28.01.2021 | **Reserved**     | ---   |
-| 04.02.2021 | **Reserved**     | ---   |
+| 04.02.2021 | Semaschko stanislav     | ---   |
 | 11.02.2021 | **Reserved**     | ---   |
 
 ## 2nd Semester
