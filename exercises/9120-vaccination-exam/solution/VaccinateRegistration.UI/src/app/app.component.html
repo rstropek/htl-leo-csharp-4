@@ -1,0 +1,150 @@
+<div>
+  <div [fxLayout.gt-sm]="'row'" [fxLayout.lt-md]="'column'">
+
+    <section id="header">
+      <div class="hero-header">
+        <h1 class="mat-display-1">Welcome&nbsp;to</h1>
+        <h1 [ngClass.xs]="'mat-display-2'" [ngClass.gt-xs]="'mat-display-3'">VaccinateMe</h1>
+      </div>
+      <img src="/assets/vaccine-2021-transparent.png" alt="VaccinateMe Logo" />
+    </section>
+
+    <section id="description" [ngClass.gt-sm]="'description-column'" [fxLayoutAlign.gt-sm]="'center center'">
+      <div>
+        <h2>Register for Covid-19 Vaccination</h2>
+
+        <p>
+          Here we describe important things about the vaccination. Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+          vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+          Lorem ipsum
+          dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+          clita kasd
+          gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <section id="main">
+
+    <mat-vertical-stepper linear="true" (selectionChange)="stepChanged($event)">
+      <mat-step [stepControl]="step1Form" editable="false">
+        <ng-template matStepLabel>Enter your social security number and your pin</ng-template>
+        <form fxLayout="column" [formGroup]="step1Form" (ngSubmit)="next1()">
+          <mat-form-field>
+            <mat-label>Social Security Number</mat-label>
+            <input matInput type="number" placeholder="E.g. 1234151098" formControlName="ssn">
+            <mat-error *ngIf="step1Form.controls.ssn.errors?.required">You must enter a value</mat-error>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>PIN</mat-label>
+            <input matInput type="number" placeholder="E.g. 98765" formControlName="pin">
+            <mat-error *ngIf="step1Form.controls.pin.errors?.required">You must enter a value</mat-error>
+          </mat-form-field>
+
+          <p class="error mat-caption" *ngIf="couldNotFindRegistration">
+            Could not find such a registration. Please double-check your input.
+          </p>
+          <button mat-mini-fab type="submit" color="primary" aria-label="Go to next step" [disabled]="step1Form.invalid"
+            *ngIf="!isSubmitting">
+            <mat-icon>navigate_next</mat-icon>
+          </button>
+          <mat-spinner *ngIf="isSubmitting" diameter="50"></mat-spinner>
+        </form>
+      </mat-step>
+
+      <mat-step [stepControl]="step2Form" editable="false">
+        <ng-template matStepLabel>
+          <span *ngIf="!firstName; else noNameYet">
+            Vaccination date
+          </span>
+          <ng-template #noNameYet>
+            <span>
+              Welcome, {{ firstName }} {{ lastName }}! Please select date of vaccination
+            </span>
+          </ng-template>
+        </ng-template>
+        <form fxLayout="column" [formGroup]="step2Form" (ngSubmit)="next2()">
+          <mat-form-field>
+            <mat-label>Vaccination Date</mat-label>
+            <input matInput [matDatepicker]="picker" [min]="minDate" [max]="maxDate" formControlName="date">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+            <mat-error *ngIf="step2Form.controls.date.errors?.required">You must enter a value</mat-error>
+            <mat-error *ngIf="step2Form.controls.date.errors?.matDatepickerMin">Date is too early.</mat-error>
+            <mat-error *ngIf="step2Form.controls.date.errors?.matDatepickerMax">Date is too late.</mat-error>
+          </mat-form-field>
+
+          <button mat-mini-fab type="submit" color="primary" aria-label="Go to next step" [disabled]="step2Form.invalid"
+            *ngIf="!isSubmitting">
+            <mat-icon>navigate_next</mat-icon>
+          </button>
+          <mat-spinner *ngIf="isSubmitting" diameter="50"></mat-spinner>
+        </form>
+      </mat-step>
+
+      <mat-step [stepControl]="step3Form" editable="false">
+        <ng-template matStepLabel>
+          <span *ngIf="!date; else noDateYet">
+            Select time slot
+          </span>
+          <ng-template #noDateYet>
+            <span>
+              On the {{ date?.locale('de')?.format('L') }}, we have the following available time slots. Please
+              choose one.
+            </span>
+          </ng-template>
+        </ng-template>
+        <form fxLayout="column" [formGroup]="step3Form" (ngSubmit)="next3()">
+          <mat-form-field appearance="fill" *ngIf="!isSubmitting">
+            <mat-select placeholder="Select time slot" formControlName="datetime">
+              <mat-option *ngFor="let slot of availableSlots" [value]="slot">
+                {{slot.format('hh:mm')}}
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="step3Form.controls.datetime.errors?.required">You must select a value</mat-error>
+          </mat-form-field>
+          <mat-spinner *ngIf="isSubmitting" diameter="50"></mat-spinner>
+
+          <button mat-mini-fab type="submit" color="primary" aria-label="Go to next step" [disabled]="step3Form.invalid"
+            *ngIf="!isSubmitting">
+            <mat-icon>navigate_next</mat-icon>
+          </button>
+        </form>
+      </mat-step>
+
+      <mat-step [stepControl]="step4Form" editable="false">
+        <ng-template matStepLabel>
+          <span *ngIf="!vaccinationId; else noConfirmationYet">
+            Confirmation
+          </span>
+          <ng-template #noConfirmationYet>
+            <span>
+              Congratulations, {{ firstName }}!
+            </span>
+          </ng-template>
+        </ng-template>
+        <form fxLayout="column" [formGroup]="step4Form">
+          <p class="confirmation">
+            Your vaccination registration ID is {{ vaccinationId }}. Please come to your
+            doctor on {{ datetime?.locale('de')?.format('L') }} at {{ datetime?.locale('de')?.format('hh:mm') }}.
+          </p>
+        </form>
+      </mat-step>
+    </mat-vertical-stepper>
+
+    <mat-card class="error" *ngIf="apiError">
+      <mat-card-header>
+        <mat-card-title>Error</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        Error while accessing web api: {{ apiError.message || apiError | json }}
+      </mat-card-content>
+    </mat-card>
+
+  </section>
+</div>

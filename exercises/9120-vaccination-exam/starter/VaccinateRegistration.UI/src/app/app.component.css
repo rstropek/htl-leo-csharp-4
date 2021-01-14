@@ -1,0 +1,51 @@
+section#header {
+  background-color: lightgray;
+  padding: 15px;
+}
+
+section#header .hero-header {
+  margin-bottom: -100px;
+}
+
+section#header .hero-header h1 {
+  margin-bottom: 0;
+}
+
+section#header img {
+  max-width: 100%;
+  min-width: 420px;
+}
+
+section#description {
+  padding: 15px;
+  max-width: 720px;
+}
+
+section#description.description-column {
+  background-color: lightgray;
+}
+
+section#main {
+  padding: 15px;
+}
+
+section#main form mat-form-field {
+  width: 250px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+section#main button {
+  margin-top: 10px;
+}
+
+section#main p.error {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+section#main p.confirmation {
+  margin-top: 15px;
+  font-weight: bold;
+}
