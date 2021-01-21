@@ -34,6 +34,11 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Person"
+          headers:
+            Location:
+              description: URL where to get details of the created event
+              schema:
+                type: string
         "400":
           description: Invalid input (e.g. required field missing or empty)
   "/contacts/{personId}":
