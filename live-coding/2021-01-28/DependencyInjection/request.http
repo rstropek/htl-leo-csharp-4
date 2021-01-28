@@ -1,0 +1,11 @@
+POST https://localhost:5001/api/prices/fill
+Content-Type: application/json
+
+###
+POST https://localhost:5001/api/prices
+Content-Type: application/json
+
+{
+    "user": "fooBar",
+    "percPriceChange": 0.9
+}

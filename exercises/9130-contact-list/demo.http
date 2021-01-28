@@ -1,0 +1,2 @@
+GET http://api.myserver.com/api/something
+Authorization: Basic dXNlcjpwYXNzd29yZA==
