@@ -88,6 +88,9 @@ public class Blog
 }
 ```
 
+* Don't forget to *copy the file to output directory* if you build a console app. In ASP.NET Core, this is done automatically.
+  ![Copy to output directory](CopyToOutputDir.png)
+
 * Read connection string in ASP.NET Core's startup class:
 
 ```csharp
