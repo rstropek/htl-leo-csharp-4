@@ -1,0 +1,33 @@
+<h1>Hello</h1>
+
+<button (click)="login()" [hidden]="loggedIn">Login</button>
+<button (click)="logout()" [hidden]="!loggedIn">Logout</button>
+
+<div *ngIf="loggedIn">
+
+    <h2>Get Profile</h2>
+
+    <button (click)="getProfile()">Profile</button>
+    <div *ngIf="profile">
+        <p>Display name: {{ profile.displayName }}</p>
+    </div>
+
+    <h2>Get Orders (custom API)</h2>
+
+    <button (click)="getOrders()">Orders</button>
+    <div *ngIf="orders">
+        <ul>
+            <li *ngFor="let o of orders">{{ o.id }}: {{ o.customer }} ({{ o.revenue | number }})</li>
+        </ul>
+    </div>
+
+    <h2>Get Users (MS Graph)</h2>
+
+    <input type="text" [(ngModel)]="userNameFilter" />
+    <button (click)="getUsers()">Users</button>
+    <div *ngIf="users">
+        <ul>
+            <li *ngFor="let u of users">{{ u.displayName }} ({{ u.userPrincipalName }})</li>
+        </ul>
+    </div>
+</div>
