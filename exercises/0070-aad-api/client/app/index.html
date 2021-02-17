@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Demo Client</title>
+  <link rel="SHORTCUT ICON" href="./favicon.svg" type="image/x-icon">
+
+  <!-- msal.min.js can be used in the place of msal.js; included msal.js to make debug easy -->
+  <script src="https://alcdn.msauth.net/browser/2.11.1/js/msal-browser.js"></script>
+</head>
+
+<body>
+  <h1 id="WelcomeMessage">Welcome</h1>
+
+  <button type="button" id="SignIn" class="btn btn-secondary" onclick="signIn()">Sign In</button>
+  <button class="btn btn-primary" id="seeProfile" onclick="seeProfile()">See Profile</button>
+  <button class="btn btn-primary" id="customApi" onclick="getCustomApi()">Call Custom API</button>
+
+  <div id="profile-div"></div>
+
+  <!-- importing app scripts (load order is important) -->
+  <script type="text/javascript" src="./authConfig.js"></script>
+  <script type="text/javascript" src="./ui.js"></script>
+
+  <!-- <script type="text/javascript" src="./authRedirect.js"></script>   -->
+  <script type="text/javascript" src="./authPopup.js"></script>
+  <script type="text/javascript" src="./callApi.js"></script>
+</body>
+
+</html>
