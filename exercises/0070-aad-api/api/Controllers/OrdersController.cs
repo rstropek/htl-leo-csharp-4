@@ -1,8 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.Resource;
 using System.Collections.Concurrent;
+using System.Diagnostics;
+using System.Linq;
 using System.Net;
+using System.Security.Claims;
 
 namespace ProtectedApi.Controllers
 {
@@ -24,6 +28,8 @@ namespace ProtectedApi.Controllers
         [Authorize(Policy = "RainerOnly")]
         public IActionResult GetAllOrders()
         {
+            Debug.WriteLine($"The user name is {User.Claims.First(c => c.Type == ClaimTypes.Name)}");
+            Debug.WriteLine($"The AAD object ID for the user is {User.Claims.First(c => c.Type == ClaimConstants.ObjectId)}");
             return Ok(orders);
         }
 
