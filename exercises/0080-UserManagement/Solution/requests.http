@@ -1,0 +1,22 @@
+GET https://localhost:5001/api/groups
+
+###
+GET https://localhost:5001/api/groups/9
+
+###
+GET https://localhost:5001/api/groups/9/users
+
+###
+GET https://localhost:5001/api/groups/9/users?recursive=true
+
+###
+GET https://localhost:5001/api/groups/9/groups
+
+###
+GET https://localhost:5001/api/users/me
+
+###
+GET https://localhost:5001/api/users
+
+###
+GET https://localhost:5001/api/users?filter=Doe
