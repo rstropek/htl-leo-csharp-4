@@ -1,0 +1,135 @@
+@foobarToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJmb28uYmFyQGFjbWUuY29ycCIsIm5hbWUiOiJiYXIiLCJnaXZlbl9uYW1lIjoiZm9vIiwibmJmIjoxNjE3NzgwNDYwLCJleHAiOjE2MTgzODUyNjAsImlhdCI6MTYxNzc4MDQ2MCwiaXNzIjoiaHR0cHM6Ly91aS5xdW90ZXhjaGFuZ2UuY29tIiwiYXVkIjoiaHR0cHM6Ly9hcGkucXVvdGV4Y2hhbmdlLmNvbSJ9._EYIOexObS5MQYE2WGol_XjSrRgwZvsjKj6MqOqxaaw
+@johnDoeToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJqb2huLmRvZUBhY21lLmNvcnAiLCJuYW1lIjoiZG9lIiwiZ2l2ZW5fbmFtZSI6ImpvaG4iLCJuYmYiOjE2MTc3ODA1MDcsImV4cCI6MTYxODM4NTMwNywiaWF0IjoxNjE3NzgwNTA3LCJpc3MiOiJodHRwczovL3VpLnF1b3RleGNoYW5nZS5jb20iLCJhdWQiOiJodHRwczovL2FwaS5xdW90ZXhjaGFuZ2UuY29tIn0.v05zA-topRo2j-T5i9qZmFwHIduQJZsS_HNQUcFcxhk
+@janeDoeToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJqYW5lLmRvZUBhY21lLmNvcnAiLCJuYW1lIjoiZG9lIiwiZ2l2ZW5fbmFtZSI6ImphbmUiLCJuYmYiOjE2MTc3ODA1MzcsImV4cCI6MTYxODM4NTMzNywiaWF0IjoxNjE3NzgwNTM3LCJpc3MiOiJodHRwczovL3VpLnF1b3RleGNoYW5nZS5jb20iLCJhdWQiOiJodHRwczovL2FwaS5xdW90ZXhjaGFuZ2UuY29tIn0.rwK5J_DcfVmZwEruxaewMawukZVPzMsqVlqURcFi7sQ
+@dummyToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJkdW1teUBhY21lLmNvcnAiLCJuYW1lIjoiZHVtIiwiZ2l2ZW5fbmFtZSI6Im15IiwibmJmIjoxNjE3NzgyNTAzLCJleHAiOjE2MTgzODczMDMsImlhdCI6MTYxNzc4MjUwMywiaXNzIjoiaHR0cHM6Ly91aS5xdW90ZXhjaGFuZ2UuY29tIiwiYXVkIjoiaHR0cHM6Ly9hcGkucXVvdGV4Y2hhbmdlLmNvbSJ9.Nhb1A3f8PwJeDAX6pAICJ9oAaEk1j_9OFAgba4ImOp0
+@host=https://localhost:5001/api
+
+# region "asdf"
+
+###
+# Not part of exam, just for demo purposes
+GET {{host}}/users/me
+Authorization: Bearer {{foobarToken}}
+
+###
+# The following request must return status code 204
+POST {{host}}/quotes/clear
+Authorization: Bearer {{foobarToken}}
+
+###
+# The following request must fail with status code 401
+POST {{host}}/quotes/clear
+
+###
+# The following request must return status code 200
+GET {{host}}/quotes/my
+Authorization: Bearer {{foobarToken}}
+
+###
+# The following request must return status code 401
+GET {{host}}/quotes/my
+Authorization: Bearer {{dummyToken}}
+
+###
+# The following request must return status code 401
+GET {{host}}/quotes/my
+
+###
+# The following request must return status code 200
+POST {{host}}/quotes
+Authorization: Bearer {{foobarToken}}
+Content-Type: application/json
+
+{
+    "quote": "Wenn man ein 0:2 kassiert, dann ist ein 1:1 nicht mehr möglich.",
+    "source": "Satz des Pythagoras"
+}
+
+###
+# The following request must return status code 200
+POST {{host}}/quotes
+Authorization: Bearer {{janeDoeToken}}
+Content-Type: application/json
+
+{
+    "quote": "Frage nicht, was dein Land für dich tun kann, frage was du für dein Land tun kannst.",
+    "source": "Kim Jong-il"
+}
+
+###
+# The following request must return status code 401
+POST {{host}}/quotes
+Authorization: Bearer {{dummyToken}}
+Content-Type: application/json
+
+{
+    "quote": "Wenn man ein 0:2 kassiert, dann ist ein 1:1 nicht mehr möglich.",
+    "source": "Satz des Pythagoras"
+}
+
+###
+# The following request must return status code 401
+POST {{host}}/quotes
+Content-Type: application/json
+
+{
+    "quote": "Wenn man ein 0:2 kassiert, dann ist ein 1:1 nicht mehr möglich.",
+    "source": "Satz des Pythagoras"
+}
+
+###
+# The following request must return status code 400
+POST {{host}}/quotes
+Authorization: Bearer {{foobarToken}}
+Content-Type: application/json
+
+{
+    "quote": "",
+    "source": "Satz des Pythagoras"
+}
+
+###
+# The following request must return status code 400
+POST {{host}}/quotes
+Authorization: Bearer {{foobarToken}}
+Content-Type: application/json
+
+{
+    "quote": "Wenn man ein 0:2 kassiert, dann ist ein 1:1 nicht mehr möglich.",
+    "source": ""
+}
+
+###
+# The following request must return status code 200
+GET {{host}}/quotes
+
+###
+# NOTE that you have to replace "3" with a valid quote ID in the following URL
+# The following request must return status code 200
+POST {{host}}/quotes/3/vote?v=1
+Authorization: Bearer {{foobarToken}}
+
+###
+# NOTE that you have to replace "3" with a valid quote ID in the following URL
+# The following request must return status code 200
+POST {{host}}/quotes/3/vote?v=-1
+Authorization: Bearer {{foobarToken}}
+
+###
+# The following request must return status code 401
+POST {{host}}/quotes/3/vote?v=1
+
+###
+# The following request must return status code 401
+POST {{host}}/quotes/3/vote?v=1
+Authorization: Bearer {{dummyToken}}
+
+###
+# The following request must return status code 400
+POST {{host}}/quotes/3/vote?v=-2
+Authorization: Bearer {{foobarToken}}
+
+###
+# The following request must return status code 404
+POST {{host}}/quotes/99999/vote?v=-1
+Authorization: Bearer {{foobarToken}}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TokenGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "dummy@acme.corp dum my"
+    }
+  }
+}
