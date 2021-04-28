@@ -1,0 +1,99 @@
+﻿<!-- Note the `d:DataContext` attribute. It will give you IntelliSense by looking
+     at your view model during design time. -->
+<Window x:Class="CashRegister.UICore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CashRegister.UICore"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type=local:MainWindow, IsDesignTimeCreatable=False}"
+        Title="Cash Register Exercise" Height="700" Width="1000">
+    <Window.Resources>
+        <!-- WPF Styles are used to format the UI -->
+        <Style x:Key="TotalSum" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Lucida Console" />
+            <Setter Property="FontSize" Value="50" />
+            <Setter Property="HorizontalAlignment" Value="Right" />
+        </Style>
+
+        <!-- Note the `BasedOn` attribute -->
+        <Style x:Key="TotalSumText" TargetType="TextBlock" BasedOn="{StaticResource ResourceKey=TotalSum}">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Margin" Value="0,5,0,0" />
+        </Style>
+
+        <Style x:Key="Basket" TargetType="ItemsControl">
+            <Setter Property="FontFamily" Value="Lucida Console" />
+            <Setter Property="FontSize" Value="10" />
+            <Setter Property="Margin" Value="0,0,0,5" />
+        </Style>
+
+        <Style x:Key="CheckoutButton" TargetType="Button">
+            <Setter Property="FontFamily" Value="Lucida Console" />
+            <Setter Property="FontSize" Value="50" />
+        </Style>
+
+        <Style x:Key="ProductButton" TargetType="Button">
+            <Setter Property="Width" Value="150" />
+            <Setter Property="Height" Value="100" />
+            <Setter Property="Margin" Value="5,5,0,0" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <!-- Note the use of column weights -->
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Note the use of a `ScrollViewer`. This gives us a scrollbar on
+             small screens. -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <!-- Note the use of an `ItemsControl` here. It behaves just like a
+                 listbox without the ability to select an item. In fact, it is
+                 the base class of the listbox. -->
+            <ItemsControl Margin="10,10,5,10" ItemsSource="{Binding Path=Products}">
+                <ItemsControl.ItemTemplate>
+                    <!-- Note how we turn every item in the itemscontrol into a button by
+                            using a data template. -->
+                    <DataTemplate>
+                        <!-- Note how we reference styles using `StaticResource` -->
+                        <Button Style="{StaticResource ResourceKey=ProductButton}" Content="{Binding Path=ProductName}"
+                                Click="OnAddProduct" />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <!-- Note how we switch the panel of the itemscontrol to a `WrapPanel`.
+                     Therefore, buttons flow from left to right with line breaks. -->
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </ScrollViewer>
+
+        <Grid Grid.Column="1" Margin="5,10,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <!-- Note sizing based on content with `Auto` -->
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+
+            <!-- Note the use of a data grid -->
+            <DataGrid ItemsSource="{Binding Path=Basket}" AutoGenerateColumns="False" IsReadOnly="True"
+                      CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Produkt" Binding="{Binding Path=ProductName}" MinWidth="200" />
+                    <DataGridTextColumn Header="Menge" Binding="{Binding Path=Amount}" />
+                    <DataGridTextColumn Header="Preis" Binding="{Binding Path=TotalPrice}" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBlock Grid.Row="1" Text="Gesamtsumme:" Style="{StaticResource ResourceKey=TotalSumText}" />
+            <TextBlock Grid.Row="2" Text="{Binding Path=TotalSum}" Style="{StaticResource ResourceKey=TotalSum}" />
+            <Button Grid.Row="4" Style="{StaticResource ResourceKey=CheckoutButton}" Click="OnCheckout">Checkout</Button>
+        </Grid>
+    </Grid>
+</Window>
