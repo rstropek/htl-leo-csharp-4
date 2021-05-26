@@ -1,0 +1,108 @@
+﻿<Window x:Class="Screws.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Screws"
+        d:DataContext="{d:DesignInstance Type={x:Type local:MainWindow}, IsDesignTimeCreatable=True}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="512" Width="534">
+    <Window.Resources>
+        <Style TargetType="Grid" x:Key="OrderLines">
+            <Setter Property="Margin" Value="15" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="TotalPriceLabel">
+            <Setter Property="FontSize" Value="10" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="Margin" Value="0,0,5,0" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="TotalPrice">
+            <Setter Property="FontSize" Value="30" />
+        </Style>
+        <Style TargetType="DataGrid">
+            <Setter Property="FontSize" Value="20" />
+        </Style>
+        <Style TargetType="Border" x:Key="NewOrder">
+            <Setter Property="Margin" Value="15" />
+            <Setter Property="Padding" Value="15" />
+            <Setter Property="Background" Value="#f0f0f0" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="0,3,0,3" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="0,10,0,0" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="FontSize" Value="15" />
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <Border Style="{StaticResource NewOrder}" DockPanel.Dock="Bottom">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" MinWidth="150" />
+                </Grid.ColumnDefinitions>
+
+                <Label Target="{Binding ElementName=ScrewTypeSelect}">Schrauben_typ:</Label>
+                <ComboBox Name="ScrewTypeSelect" Grid.Column="1" ItemsSource="{Binding Path=ScrewTypes}"
+                      SelectedItem="{Binding Path=ScrewType}" />
+
+                <Label Grid.Row="1" Target="{Binding ElementName=AmountInput}">_Menge:</Label>
+                <TextBox Name="AmountInput" Grid.Column="1" Grid.Row="1" Text="{Binding Path=Amount}" />
+
+                <Label Grid.Row="2" Target="{Binding ElementName=UnitOfMeasureSelect}">Mengen_einheit:</Label>
+                <ComboBox Name="UnitOfMeasureSelect" Grid.Row="2" Grid.Column="1"
+                      ItemsSource="{Binding Path=UnitsOfMeasure}" SelectedItem="{Binding Path=UnitOfMeasure}" />
+
+                <Button Grid.Row="3" Grid.ColumnSpan="2" Click="OnAddToCart" IsDefault="True">Zum _Warenkorb</Button>
+            </Grid>
+        </Border>
+        <Grid Style="{StaticResource OrderLines}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- 
+                Note: For the exam, it would be ok to set AutoGenerateColumns to True. However,
+                      in this sample you see, how you can influence the columns of a DataGrid.
+            -->
+            <DataGrid IsReadOnly="True" ItemsSource="{Binding Path=Order}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=ScrewType}" Header="Schraubentyp"
+                                        Width="150"/>
+                    <DataGridTextColumn Binding="{Binding Path=UnitOfMeasure}" Header="MEH"
+                                        Width="150"/>
+                    <DataGridTextColumn Binding="{Binding Path=Amount}" Header="Menge" 
+                                        Width="75">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Right" />
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Binding="{Binding Path=Price}" Header="Preis" 
+                                        Width="75">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Right" />
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Text="Total Price:" Style="{StaticResource TotalPriceLabel}" />
+                <TextBlock Text="{Binding Path=TotalPrice}" Style="{StaticResource TotalPrice}" />
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>
