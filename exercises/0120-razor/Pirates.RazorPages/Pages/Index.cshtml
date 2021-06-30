@@ -1,0 +1,58 @@
+﻿@page
+@model IndexModel
+
+<div>
+    <h1 class="display-4">Pirates</h1>
+
+    <form asp-page-handler="filter" method="post">
+        <div class="mb-3">
+            <label for="nameFilter" class="form-label">Name filter</label>
+            <input asp-for="NameFilter" class="form-control" id="nameFilter">
+        </div>
+        <button type="submit" class="btn btn-primary">Filter</button>
+    </form>
+
+    @if (Model.Pirates == null || !Model.Pirates.Any())
+    {
+     <div class="alert alert-primary" role="alert">
+      Sorry, no pirates found!
+     </div>
+    }
+    else
+    {
+     <table class="table table-striped">
+      <thead>
+       <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Real Name</th>
+        <th scope="col">Year of Birth</th>
+        <th scope="col">Year of Death</th>
+        <th scope="col">Country of Origin</th>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">&nbsp;</th>
+       </tr>
+      </thead>
+      <tbody>
+        @foreach (var p in Model.Pirates!)
+        {
+           <tr>
+            <td>@(p.Name ?? "☠️")</td>
+            <td>@(p.RealName ?? "☠️")</td>
+            <td>@p.YearOfBirth</td>
+            <td>@p.YearOfDeath</td>
+            <td>@p.CountryOfOrigin</td>
+            <td>
+             <form asp-page-handler="delete" method="post">
+              <button class="btn">❌</button>
+              <input name="id" type="hidden" value="@p.ID" />
+             </form>
+            </td>
+            <td>
+              <a asp-page="pirate" asp-route-id="@p.ID">✏</a>
+            </td>
+           </tr>
+        }
+      </tbody>
+     </table>
+    }
+</div>

@@ -1,0 +1,32 @@
+﻿@page "{id?}"
+@model Pirates.RazorPages.Pages.PirateModel
+
+<h1 class="display-4">@(RouteData.Values["id"] != null ? "Edit" : "Create") Pirate</h1>
+
+<form method="post">
+  <input asp-for="Pirate.ID" type="hidden">
+  <div class="mb-3">
+    <label for="Name" class="form-label">Name</label>
+    <input asp-for="Pirate.Name" class="form-control" id="Name">
+  </div>
+  <div class="mb-3">
+    <label for="RealName" class="form-label">Real Name</label>
+    <input asp-for="Pirate.RealName" class="form-control" id="RealName">
+  </div>
+  <div class="mb-3">
+    <label for="YearOfBirth" class="form-label">Year of Birth</label>
+    <input asp-for="Pirate.YearOfBirth" class="form-control" id="YearOfBirth">
+  </div>
+  <div class="mb-3">
+    <label for="YearOfDeath" class="form-label">Year of Death</label>
+    <input asp-for="Pirate.YearOfDeath" class="form-control" id="YearOfDeath">
+  </div>
+  <div class="mb-3">
+    <label for="CountryOfOrigin" class="form-label">Country of Origin</label>
+    <input asp-for="Pirate.CountryOfOrigin" class="form-control" id="CountryOfOrigin">
+    <div class="form-text text-danger">
+        <span asp-validation-for="Pirate.CountryOfOrigin"></span>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
