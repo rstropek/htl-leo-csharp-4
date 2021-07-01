@@ -41,13 +41,6 @@ namespace Pirates.WebApi.Controllers
             return Ok(pirate);
         }
 
-        public record NewPirate(
-            [MaxLength(150)] string? Name,
-            [MaxLength(150)] string? RealName,
-            int? YearOfBirth,
-            int? YearOfDeath,
-            [MaxLength(150)] string CountryOfOrigin);
-
         [HttpPost]
         public async Task<ActionResult<Pirate>> AddPirate([FromBody] NewPirate pirate)
         {

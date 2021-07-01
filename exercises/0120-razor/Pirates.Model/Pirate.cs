@@ -21,4 +21,11 @@ namespace Pirates.Model
         [MaxLength(150)]
         public string CountryOfOrigin { get; set; } = string.Empty;
     }
+
+    public record NewPirate(
+        [MaxLength(150)] string? Name,
+        [MaxLength(150)] string? RealName,
+        int? YearOfBirth,
+        int? YearOfDeath,
+        [MaxLength(150)] string CountryOfOrigin);
 }

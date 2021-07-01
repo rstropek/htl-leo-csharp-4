@@ -1,0 +1,65 @@
+﻿@page "/pirate/{id?}"
+@inject HttpClient Client
+
+<h1 class="display-4">@(Id.HasValue ? "Edit" : "Create") Pirate</h1>
+
+<form method="post">
+	<div class="mb-3">
+		<label for="Name" class="form-label">Name</label>
+		<input @bind="this.Pirate.Name" class="form-control" id="Name">
+	</div>
+	<div class="mb-3">
+		<label for="RealName" class="form-label">Real Name</label>
+		<input @bind="this.Pirate.RealName" class="form-control" id="RealName">
+	</div>
+	<div class="mb-3">
+		<label for="YearOfBirth" class="form-label">Year of Birth</label>
+		<input @bind="this.Pirate.YearOfBirth" class="form-control" id="YearOfBirth">
+	</div>
+	<div class="mb-3">
+		<label for="YearOfDeath" class="form-label">Year of Death</label>
+		<input @bind="this.Pirate.YearOfDeath" class="form-control" id="YearOfDeath">
+	</div>
+	<div class="mb-3">
+		<label for="CountryOfOrigin" class="form-label">Country of Origin</label>
+		<input @bind="this.Pirate.CountryOfOrigin" class="form-control" id="CountryOfOrigin">
+	</div>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@code {
+	[Parameter]
+	public Guid? Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+	{
+		this.Pirate = new Pirate();
+		
+		if (Id.HasValue)
+		{
+			this.Pirate = await Client.GetFromJsonAsync<Pirate>($"/api/pirates/{Id}");
+		}
+	}
+
+	public Pirate Pirate { get; set; }
+
+@*	public async Task<IActionResult> OnPost()
+	{
+		if (ModelState.IsValid && Pirate != null)
+		{
+			if (RouteData.Values["id"] != null)
+			{
+				context.Pirates.Update(Pirate);
+			}
+			else
+			{
+				context.Pirates.Add(Pirate);
+			}
+
+			await context.SaveChangesAsync();
+			return RedirectToPage("Index");
+		}
+
+		return Page();
+	}*@
+}

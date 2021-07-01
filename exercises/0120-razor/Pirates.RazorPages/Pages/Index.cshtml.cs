@@ -24,10 +24,7 @@ namespace Pirates.RazorPages.Pages
             this.context = context;
         }
 
-        public async Task OnGetAsync()
-        {
-            Pirates = await context.Pirates.ToListAsync();
-        }
+        public async Task OnGetAsync() => await OnPostFilter();
 
         public async Task OnPostDelete(Guid id)
         {
@@ -38,7 +35,7 @@ namespace Pirates.RazorPages.Pages
                 await context.SaveChangesAsync();
             }
 
-            await OnGetAsync();
+            await OnPostFilter();
         }
 
         public async Task OnPostFilter()

@@ -45,6 +45,7 @@
              <form asp-page-handler="delete" method="post">
               <button class="btn">❌</button>
               <input name="id" type="hidden" value="@p.ID" />
+              <input asp-for="NameFilter" type="hidden" />
              </form>
             </td>
             <td>

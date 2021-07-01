@@ -1,0 +1,74 @@
+﻿@page "/"
+@inject HttpClient Client
+
+<div>
+	<h1 class="display-4">Pirates</h1>
+
+	<div class="mb-3">
+		<label for="nameFilter" class="form-label">Name filter</label>
+		<input @bind="NameFilter" class="form-control" id="nameFilter">
+	</div>
+	<button class="btn btn-primary" @onclick="OnFilter">Filter</button>
+	
+	@if (Pirates == null || !Pirates.Any())
+	{
+	 <div class="alert alert-primary" role="alert">
+	  Sorry, no pirates found!
+	 </div>
+	}
+	else
+	{
+	 <table class="table table-striped">
+	  <thead>
+	   <tr>
+		<th scope="col">Name</th>
+		<th scope="col">Real Name</th>
+		<th scope="col">Year of Birth</th>
+		<th scope="col">Year of Death</th>
+		<th scope="col">Country of Origin</th>
+		<th scope="col">&nbsp;</th>
+		<th scope="col">&nbsp;</th>
+	   </tr>
+	  </thead>
+	  <tbody>
+		@foreach (var p in Pirates!)
+		{
+		   <tr>
+			<td>@(p.Name ?? "☠️")</td>
+			<td>@(p.RealName ?? "☠️")</td>
+			<td>@p.YearOfBirth</td>
+			<td>@p.YearOfDeath</td>
+			<td>@p.CountryOfOrigin</td>
+			<td>
+			  <button class="btn" @onclick="(async (_) => await OnDelete(p.ID))">❌</button>
+			</td>
+			<td>
+			 <a asp-page="pirate" asp-route-id="@p.ID">✏</a>
+			</td>
+		   </tr>
+		}
+	  </tbody>
+	 </table>
+	}
+</div>
+
+@code {
+	public IEnumerable<Pirate>? Pirates { get; private set; }
+
+	public string NameFilter { get; set; } = string.Empty;
+
+	private async Task Refresh()
+	{
+		Pirates = await Client.GetFromJsonAsync<List<Pirate>>($"/api/pirates?q={NameFilter}");
+	}
+
+    protected override async Task OnInitializedAsync() => await Refresh();
+
+	public async Task OnDelete(Guid id)
+	{
+		await Client.DeleteAsync($"/api/pirates/{id}");
+		await Refresh();
+	}
+
+	public async Task OnFilter() => await Refresh();
+}
