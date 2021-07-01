@@ -1,65 +1,64 @@
 ﻿@page "/pirate/{id?}"
 @inject HttpClient Client
+@inject NavigationManager NavigationManager
 
-<h1 class="display-4">@(Id.HasValue ? "Edit" : "Create") Pirate</h1>
+<h1 class="display-4">@(Id != null ? "Edit" : "Create") Pirate</h1>
 
-<form method="post">
+<EditForm Model="@Pirate" OnValidSubmit="@OnPost">
+	<DataAnnotationsValidator />
+    <div class="text-danger"> 
+		<ValidationSummary  />
+	</div>
 	<div class="mb-3">
 		<label for="Name" class="form-label">Name</label>
-		<input @bind="this.Pirate.Name" class="form-control" id="Name">
+		<InputText @bind-Value="this.Pirate.Name" class="form-control" id="Name"/>
 	</div>
 	<div class="mb-3">
 		<label for="RealName" class="form-label">Real Name</label>
-		<input @bind="this.Pirate.RealName" class="form-control" id="RealName">
+		<InputText @bind-Value="this.Pirate.RealName" class="form-control" id="RealName"/>
 	</div>
 	<div class="mb-3">
 		<label for="YearOfBirth" class="form-label">Year of Birth</label>
-		<input @bind="this.Pirate.YearOfBirth" class="form-control" id="YearOfBirth">
+		<InputNumber @bind-Value="this.Pirate.YearOfBirth" class="form-control" id="YearOfBirth"/>
 	</div>
 	<div class="mb-3">
 		<label for="YearOfDeath" class="form-label">Year of Death</label>
-		<input @bind="this.Pirate.YearOfDeath" class="form-control" id="YearOfDeath">
+		<InputNumber @bind-Value="this.Pirate.YearOfDeath" class="form-control" id="YearOfDeath"/>
 	</div>
 	<div class="mb-3">
 		<label for="CountryOfOrigin" class="form-label">Country of Origin</label>
-		<input @bind="this.Pirate.CountryOfOrigin" class="form-control" id="CountryOfOrigin">
+		<InputText @bind-Value="this.Pirate.CountryOfOrigin" class="form-control" id="CountryOfOrigin"/>
 	</div>
 	<button type="submit" class="btn btn-primary">Submit</button>
-</form>
+</EditForm>
 
 @code {
 	[Parameter]
-	public Guid? Id { get; set; }
+	public string? Id { get; set; }
 
     protected override async Task OnInitializedAsync()
 	{
 		this.Pirate = new Pirate();
-		
-		if (Id.HasValue)
+		if (Id != null && Guid.TryParse(Id, out var id))
 		{
-			this.Pirate = await Client.GetFromJsonAsync<Pirate>($"/api/pirates/{Id}");
+			var dbPirate = await Client.GetFromJsonAsync<Pirate>($"/api/pirates/{Id}");
+			if (dbPirate != null) Pirate = dbPirate;
 		}
 	}
 
-	public Pirate Pirate { get; set; }
+	public Pirate Pirate { get; set; } = new();
 
-@*	public async Task<IActionResult> OnPost()
+	public async Task OnPost()
 	{
-		if (ModelState.IsValid && Pirate != null)
+		if (Id != null)
 		{
-			if (RouteData.Values["id"] != null)
-			{
-				context.Pirates.Update(Pirate);
-			}
-			else
-			{
-				context.Pirates.Add(Pirate);
-			}
-
-			await context.SaveChangesAsync();
-			return RedirectToPage("Index");
+			// We have not implemented update in the API
+		}
+		else
+		{
+			await Client.PostAsJsonAsync("/api/pirates", Pirate);
 		}
 
-		return Page();
-	}*@
+		NavigationManager.NavigateTo("");
+	}
 }

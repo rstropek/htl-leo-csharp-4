@@ -43,7 +43,7 @@
 			  <button class="btn" @onclick="(async (_) => await OnDelete(p.ID))">❌</button>
 			</td>
 			<td>
-			 <a asp-page="pirate" asp-route-id="@p.ID">✏</a>
+			 <a href="pirate/@p.ID">✏</a>
 			</td>
 		   </tr>
 		}

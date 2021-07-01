@@ -19,6 +19,7 @@ namespace Pirates.Model
         public int? YearOfDeath { get; set; }
 
         [MaxLength(150)]
+        [Required]
         public string CountryOfOrigin { get; set; } = string.Empty;
     }
 
@@ -27,5 +28,5 @@ namespace Pirates.Model
         [MaxLength(150)] string? RealName,
         int? YearOfBirth,
         int? YearOfDeath,
-        [MaxLength(150)] string CountryOfOrigin);
+        [MaxLength(150)][Required] string CountryOfOrigin);
 }
