@@ -37,7 +37,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 | Access modifiers (e.g. `private`, `public`, etc.)           | Enkner Michael        |
 | Namespaces                                                  | Huemer Patrick        |
 | Functions (incl. `static` and local functions)              | Bastian Haider        |
-| String constants (incl. interpolation and verbatim strings) |         |
+| String constants (incl. interpolation and verbatim strings) |    Hossein Rasa     |
 | Preprocessor directives                                     |         |
 
 ## Level 2
