@@ -240,3 +240,30 @@ using (var transaction = context.Database.BeginTransaction())
 * Update target database: `dotnet ef database update`
 * Remove last Migration: `dotnet ef migrations remove`
 * Generate SQL script from Migrations: `dotnet ef migrations script`
+
+
+## How to install odata
+1) install the package Microsoft.AspNetCore.OData 8.0 preview3
+2) in Startup.cs add the following bellow middlewars
+```csharp
+        private static IEdmModel GetEdmModel()
+        {
+            var b = new ODataConventionModelBuilder();
+            b.EntitySet<Customer>("Customers");// the same name as the controller
+            return b.GetEdmModel();
+        }
+```
+
+3) in services add the following:
+```csharp
+            services.AddOData(opt => opt.Filter().Expand().Select().OrderBy().AddModel("odata", GetEdmModel()));
+```
+
+4) to enable query to an entity you need to return th entity itself and apply it an attribute.
+```cshap
+        [EnableQuery]
+        public IActionResult Get()
+        {
+            return Ok(_ctx.Customers);
+        }
+```
