@@ -267,3 +267,5 @@ using (var transaction = context.Database.BeginTransaction())
             return Ok(_ctx.Customers);
         }
 ```
+## Tool to major the amount of time that the garbage collector took 
+prefview
