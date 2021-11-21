@@ -269,3 +269,24 @@ using (var transaction = context.Database.BeginTransaction())
 ```
 ## Tool to major the amount of time that the garbage collector took 
 prefview
+
+## Delete behaviors 
+how to control the deletion of relation of rows in the database:
+with the OnDelete we can define what ef should do when it comes to the db and deleting main recors and what it should do to dependend record.
+there are 3 options:
+1) Cascade - means if oyu delete the main entity all the depended entities will also will be deleted. (cascades the deletes)
+2) setNull - the foreign key in the dependent is set to null.
+3) NoAction - ef dont care about the depended also if there will be a db error.
+![image](https://user-images.githubusercontent.com/46129649/142766984-9e8373ac-94e8-445e-ad9b-99ac83486061.png)
+
+```csharp
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    modelBuilder.Entity<OrderHeader>()
+                .HasMany(h => h.OrderDetails)
+                .WithOne(d => d.OrderHeader)
+                .HasForeignKey(d => d.OrderHeaderId)
+                .OnDelete(DeleteBehavior.NoAction);
+}
+```
+
