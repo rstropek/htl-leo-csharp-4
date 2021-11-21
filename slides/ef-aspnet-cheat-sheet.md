@@ -240,3 +240,58 @@ using (var transaction = context.Database.BeginTransaction())
 * Update target database: `dotnet ef database update`
 * Remove last Migration: `dotnet ef migrations remove`
 * Generate SQL script from Migrations: `dotnet ef migrations script`
+
+
+## How to install odata
+1) install the package Microsoft.AspNetCore.OData 8.0 preview3
+2) in Startup.cs add the following bellow middlewars
+```csharp
+        private static IEdmModel GetEdmModel()
+        {
+            var b = new ODataConventionModelBuilder();
+            b.EntitySet<Customer>("Customers");// the same name as the controller
+            return b.GetEdmModel();
+        }
+```
+
+3) in services add the following:
+```csharp
+            services.AddOData(opt => opt.Filter().Expand().Select().OrderBy().AddModel("odata", GetEdmModel()));
+```
+
+4) to enable query to an entity you need to return th entity itself and apply it an attribute.
+```cshap
+        [EnableQuery]
+        public IActionResult Get()
+        {
+            return Ok(_ctx.Customers);
+        }
+```
+## Tool to major the amount of time that the garbage collector took 
+prefview
+
+## Delete behaviors 
+how to control the deletion of relation of rows in the database:
+with the OnDelete we can define what ef should do when it comes to the db and deleting main recors and what it should do to dependend record.
+there are 3 options:
+1) Cascade - means if oyu delete the main entity all the depended entities will also will be deleted. (cascades the deletes)
+2) setNull - the foreign key in the dependent is set to null.
+3) NoAction - ef dont care about the depended also if there will be a db error.
+![image](https://user-images.githubusercontent.com/46129649/142766984-9e8373ac-94e8-445e-ad9b-99ac83486061.png)
+
+```csharp
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    modelBuilder.Entity<OrderHeader>()
+                .HasMany(h => h.OrderDetails)
+                .WithOne(d => d.OrderHeader)
+                .HasForeignKey(d => d.OrderHeaderId)
+                .OnDelete(DeleteBehavior.NoAction);
+}
+```
+## usefull data annotations
+
+1) [JsonIgnore] = If you are using Json.Net attribute [JsonIgnore] will simply ignore the field/property while serializing or deserialising.
+3) [Column(TypeName = "decimal(18, 6)")] = if the column of the entity is of type decimal then we nee to declare the numbers after the dots.
+4) [JsonObject(NamingStrategyType = typeof(CamelCaseNamingStrategy))] = camel casing dto
+
