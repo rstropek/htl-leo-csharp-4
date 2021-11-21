@@ -289,4 +289,9 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
                 .OnDelete(DeleteBehavior.NoAction);
 }
 ```
+## usefull data annotations
+
+1) [JsonIgnore] = If you are using Json.Net attribute [JsonIgnore] will simply ignore the field/property while serializing or deserialising.
+3) [Column(TypeName = "decimal(18, 6)")] = if the column of the entity is of type decimal then we nee to declare the numbers after the dots.
+4) [JsonObject(NamingStrategyType = typeof(CamelCaseNamingStrategy))] = camel casing dto
 
