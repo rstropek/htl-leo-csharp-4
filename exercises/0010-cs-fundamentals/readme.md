@@ -27,7 +27,7 @@ You can choose in which environment you would like to do your demo. *Visual Stud
 
 | Topic                                                       | Student |
 | ----------------------------------------------------------- | ------- |
-| Tips and tricks for writing the `Main` function             |  Fabio Lehner   |
+| Tips and tricks for writing the `Main` function             |  john doe  |
 | Expression-bodied members                                   |  Resch Oliver       |
 | Exceptions and exception handling                           | Philip Kronsteiner        |
 | Interfaces                                                  | Stefan Anzinger        |
